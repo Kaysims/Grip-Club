@@ -1,2 +1,29 @@
+/* GOOGLE FONTS IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Luckiest+Guy&family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Luckiest+Guy&display=swap');
+
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none; 
+}
+
+html {
+    font-family: 'fira-mono', sans-serif;
+    color: #201f1f;
+    background-color: #EBEBEB;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.2em;
+}
+
+a {
+    color:#201f1f;
+    text-transform: uppercase;
+    font-family:'fira-mono', sans-serif;
+}
