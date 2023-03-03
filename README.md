@@ -165,3 +165,47 @@ Click here to see the checklist that this website has met in terms of accessibil
 Initial deployment/how to fork/how to clone.
 
 # Testing
+
+# Credits
+### Content 
+* Sites :
+    * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+    * [Google Fonts](https://fonts.google.com/) - Provided all fonts.
+    * [Font Awesome](https://fontawesome.com/)  - Provided all icons.
+    * [Coolors](https://coolors.co/) - Used to create a colour pallete.
+    * [Accessible color combinations](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E) - Used to check the colour contrast.
+    * [Adobe colour](https://color.adobe.com/create/color-wheel) - Used to double check the coulor contrast. 
+    * [Medium.com](https://medium.com/@bloominari/color-psychology-in-web-design-f60656b8f313) - Used to help decide on what colours to use.
+    * [A11yproject](https://www.a11yproject.com/checklist/) - Used to help learn and check about website accessibility.
+    * [Stationrd](https://stationrd.co.uk/what-is-colour-accessibility-in-web-design-and-why-is-it-important/) - Used to understand colour accessability issues more.
+    * [Wikipedia](https://en.wikipedia.org/wiki/Bouldering) - Used to write the "what is bouldering" in the wbout section.
+    * [CSS generator](https://css-generators.com/wavy-shapes/) - Used to create the wavy background effect. I did not write the code. 
+    * [ARIA](https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/) - Used to help me understand how best to implement semantic HTML and make websites as accessible as possible. 
+
+
+* Youtube :
+    * [Kevin Powell's youtube channel](https://www.youtube.com/@KevinPowell) - Used to gain greater understanding of  flex-box, asseccibility and responsivness:
+        * [Flex-box](https://www.youtube.com/watch?v=u044iM9xsWU&t=466s) - Used to understand flex-box.
+        * [More Flex-box](https://www.youtube.com/watch?v=9e-lWQdO-DA) - Used to understand flex-box
+        * [Responsiveness](https://www.youtube.com/watch?v=VQraviuwbzU&t=837s) - Used to understand responsiveness.
+        * [Accessibility](https://www.youtube.com/watch?v=qr0ujkLLgmE) - Used to understand accessibility. 
+        * [Shapes](https://www.youtube.com/watch?v=hWGgw1K-i8Y) - Used to understadn how to make shapes in CSS. 
+    
+    
+    * [The Website Architect](https://www.youtube.com/@thewebsitearchitect) - Used to help understand good design.
+        * [Layout](https://www.youtube.com/watch?v=g0db5kA4BfQ) - Used to understand design layout good for users. 
+        * [More lay-out](https://www.youtube.com/watch?v=3C_22eBWpjg) - Used to understand design layout good for users. 
+
+* Code Institute members :
+    * [Kera Cudmore](https://github.com/kera-cudmore/readme-examples#inserting-images) - Used to help me write/understand how to do my readme along with Kera's Bully-Book-Club project.
+    * [Mike Ralph](https://github.com/MikeR94/CI-Project-Portfolio-1) - Used to help me understand how to write my readme. 
+    
+
+       
+### Media :
+* [Pixels](https://www.pexels.com/)  - all images come from this site. 
+* [Imageresizer](https://imageresizer.com/) - Used to re-size images. 
+* [Tiny Ping](https://tinypng.com/) - Used to compress images for the readme.
+
+### Acknowledgments :
+This site is my first Code Institute project using CSS and HTML. I would like to thank my mentor Gareth McGirr, the slack code institute community for their help and support. Also I would like to thank the Youtube coding community, as their videos helped me develop a greater understanding of CSS and responsive design.  Building Grip club has helped me put into practise the content from code institute course, but also develop further knowledge on designing, building and testing a responsive website. 
