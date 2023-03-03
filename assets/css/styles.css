@@ -27,3 +27,68 @@ a {
     text-transform: uppercase;
     font-family:'fira-mono', sans-serif;
 }
+
+/* HEADER */
+header {
+    position: fixed;
+    background-color: #201f1f;
+    z-index: 999;
+    width: 100%;
+    height: 5rem; 
+}
+
+/* NAV BAR */
+.nav-bar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 3rem;
+    line-height: 5rem;   
+}
+
+#home {
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.2em;
+    font-size: 3rem;
+    color: #EBEBEB;
+}
+
+#home i {
+    color: #659B5E;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-size: 1.3rem;
+    
+}
+
+.nav-link {
+    transition: 0.7s ease;
+    color: #EBEBEB;
+}
+
+.nav-link:hover {
+    background-color: #659B5E;
+    font-size: 150%;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+}
