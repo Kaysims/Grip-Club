@@ -140,3 +140,28 @@ I have made sure to implement accessibility throughout this project. From the st
 * Making sure that the colour contrast is good.
 
 Click here to see the checklist that this website has met in terms of accessibility.  https://www.a11yproject.com/checklist/
+
+# Technologies used
+
+### Languages :
+* HTML - Used to give the content and structure to the site.
+* CSS - Used to style the site.
+* JavaScript - Used to create the responsive hamburger icon for mobile and tablet site.
+
+### Programmes used :
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+* [Gitpod](https://www.gitpod.io/) - Used to create and edit the website.
+* [GitHub](https://github.com/) - Used to save, store and deploy the site.
+* [Google Fonts](https://fonts.google.com/) - Provided all fonts.
+* [Font Awesome](https://fontawesome.com/)  - Provided all icons.
+* [Google Dev Tools](https://www.google.com/chrome/dev/) - Used for help styling, responsivness, and for testing.
+* [Imageresizer](https://imageresizer.com/) - Used to re-size images. 
+* [Tiny Ping](https://tinypng.com/) - Used to compress images for the readme.
+* [A11y chicklist](https://www.a11yproject.com/checklist/) - Used to check the accessibility of the site with check list.
+* [Coolors](https://coolors.co/) - Used to create a colour pallete.
+* [Accessible color combinations](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E) - Used to check the colour contrast. 
+
+# Deployment 
+Initial deployment/how to fork/how to clone.
+
+# Testing
