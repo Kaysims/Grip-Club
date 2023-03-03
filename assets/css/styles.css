@@ -64,8 +64,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    font-size: 1.3rem;
-    
+    font-size: 1.3rem;   
 }
 
 .nav-link {
@@ -78,7 +77,7 @@ header {
     font-size: 150%;
 }
 
-.hamburger {
+.hamburger{
     display: none;
     cursor: pointer;
 }
