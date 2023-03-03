@@ -1,108 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Grip Club - Project Portfolio 1 - HTML & CSS 
 
-Welcome Kaysims,
+Grip Club is a local family run bouldering gym based in Essex. This site is aimed at people who would like to get involved in bouldering, whether they are experienced or not. It is also targeted towards individuals that would like to meet new people and socialise whilst bouldering. The site should give users guidance on what bouldering is, what the company aims to achieve and how they can get involved.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+You can view the live site here - 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Screenshoots of responsive site
 
-## Gitpod Reminders
+# User Experience
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## <u>Initial discussion :</u>
+Grip Club is a bouldering gym in Essex. It aims to create a friendly and social environment where people can learn/improve their bouldering skills. 
+The website is being used in the hope that it will drive more individuals to come down and give bouldering a try, providing users with more information about who Grip Club is and what they offer. The contact us section has been added so that people can ask questions and give feedback.
 
-`python3 -m http.server`
+## <u>User stories :</u>
+### Client Goals
+* To create a site that is responsive.
+* To create a site that is able to answer three questions from the opening page:
+    1. Who Grip Club is
+    2. What Grip Club does
+    3. How to get involved
+* To create a site where people are able to contact Grip Club, ask questions, and give feedback.
 
-A blue button should appear to click: _Make Public_,
+### First time vistor goals 
+* I want to find out about Grip Club, and understand what the club is about. 
+* I want to be able to navigate the site easily. 
+* I want to be able to see classes that can get me involved in bouldering. 
 
-Another blue button should appear to click: _Open Browser_.
+### Returning visitor goals
+* I want to find out about any new events that are happening in the club. 
+* I want to be able to follow social media pages for Grip Club.
+* I want to be able to contact the club quickly, with questions, feedback.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## <u>Structure :</u>
+I want to create a layout that has a clear user journey, that is easy to navigate and interact with. Starting with who Grip club is, what Grip Club is about, what Grip Club can offer and finally a call to act. 
 
-A blue button should appear to click: _Make Public_,
+* The navigation menu will be fixed, so that the user can navigate between pages. The navigation menu for tablets and phones will be controlled via a hamburger so that it is responsive. This should allow for users to navigate through the site with ease, which is a user goal.
+ >   I want to be able to navigate the site easily.
 
-Another blue button should appear to click: _Open Browser_.
+* The home page will have a hero image that clearly shows what the site is about. A title along with a short text about what Grip Club is. And finally a button to discover more about the company. This should answer the three important questions about the company, which is a client goal. 
+ >  1. Who Grip Club is
+ >  2. What Grip Club does
+ >  3. How to get involved
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* The about us page will provide information about what bouldering is and also what Grip Club can offer. It will include there mission, there facilities and health benfits of bouldering. This will provide the user with more information about the company, which is a user goal. 
+ > I want to find out about Grip Club, and understand what the club is about.
 
-To log into the Heroku toolbelt CLI:
+* The classes page will provide information on diffrent classes that users can get involoved in and join. This should achive the user goals of getting involoved. 
+ > I want to be able to see classes that can get me involved in bouldering. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ * The contact page will allow users to contact Grip club via a form. It will have a dropdown list to establish why the user is contacting and a text-area so that they can type questions, feedback, complaints. This is both a user and client requirment. 
+  >    * To create a site where people are able to contact Grip Club, ask questions, and give feedback.
+  >    * I want to be able to contact the club quickly, with questions, feedback.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  * The info section will include address, prices, and opening/closing times. This will provide important information for users so they can decide on visiting the club. This should achive the user goals of getting involoved.
+ > I want to be able to see classes that can get me involved in bouldering. 
 
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+* The footer will contain links to social media, this will enable users to follow Grip Club’s socials.
+ > I want to be able to follow social media pages for Grip Club.
