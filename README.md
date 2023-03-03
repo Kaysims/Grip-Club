@@ -57,3 +57,86 @@ I want to create a layout that has a clear user journey, that is easy to navigat
 
 * The footer will contain links to social media, this will enable users to follow Grip Club’s socials.
  > I want to be able to follow social media pages for Grip Club.
+
+ # Design
+
+## <u>Colour scheme : </u>
+
+The colour palette was created using [Coolors website,](https://coolors.co/) taking into account both color psychology and accessibility. 
+
+### Colour psychology 
+* After looking into colour psychology i decided to use the colour green. The reason for this choose is that green is often associated with health and nature. Bouldering has many health benifits and although this is an indoor gym due to its location, bouldering is often assosiciated with the great outdoors. White and black were then chosen to create a clean and simple feel to the site.
+
+    ![Colour Palate image](assets/readme-images/color-scheme-tiny.png)
+
+### Colour accessibility 
+*   To test the accessibility of the colours i used [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E). I used this to check that the colours meet the WCAG 2.1 AA and AAA guidlines. I did double check these with [Adobe color](https://color.adobe.com/create/color-contrast-analyzer) which gave the same results. I will only use the colours as per the below colour combinations recommended for the text and background colour.
+
+    ![Colour Cintrast imagee](assets/readme-images/contrast-checker.png)
+
+
+## <u>Typography : </u>
+
+[Google fonts](https://fonts.google.com/) was used to select the typography on this site. 
+
+* Luckiest guy is used for headings on the site. It was chosen as it has a friendly fun appearance which matches the environment Grip Club would like to create. Plus it's a San Serif typeface.
+ ![Colour Palate image](assets/readme-images/title-font.png)
+
+* Fira Mono regular 400 was used for all other text on the page. It was choosen as it is a simple font. It's a sans-serif font which is good for accessibility.
+![Colour Palate image](assets/readme-images/font-text.png)
+
+## <u>Imagery :</u>
+All icons used are from [font-awesome.](https://fontawesome.com/) The images are all from [Pixels](https://www.pexels.com/). I have credited these in the below credit section. 
+
+
+## <u>Wireframes : </u>
+
+Balsamiq wireframes
+
+## <u>Features :</u>
+The website is designed to be simple and easy to use, this is achived by using common website features, like a nav bar, an icon, a contact page. The site has three pages which are all accessibile via the navigation menu. 
+* ### Navigation bar:
+    * The Navigation bar remains fixed, and contains links to diffrent parts of the site.
+    * The Navigation bar is responsive as the hamburger icon allows the menu nav bar to compress on smaller screen sizes. 
+    * The logo takes users back to the home page.
+* ### Home page:
+    * The home page is designed to give a clear message of what this site is about. The hero image takes up the full width of the screen.
+    * In the center of the image is the Company name and a breif discription of the club.
+    * A button then allows users to jump to the About us section this will then provide further information about bouldering and the club. 
+* ### About us page:
+    * The about us page is designed to provide information on what bouldering is, and more information about the club.
+    * The benefits section has icons to catch the users attention. Plus it is responsive. 
+    * There is a facilities section which will list the various amenitys that the Club offers. It is responsive.
+* ### Classes page: 
+    * This classes page lists the diffrent classes on at Grip Club, this should encourge users to get involved. 
+    * Images are used to help get the users attention. It is fully responsive.
+* ### Contact us page:
+    * The contact page asks for the users name and email. This can nut be submitted unless the user fills this in. 
+    * The contact page also has a dropdown for the user to select why they are contacting the club and a textarea for them to write a message. 
+    * A submit button allows users to submit the form, but only if all sections are filled in. 
+* ### Thank you pop up:
+    * This pop up shows when a user has submitted a form. It will thank them for contacting Grip Club and let the user know that someone will get back to them 
+    
+* ### Info section:
+    * The info section provides important information about the clubs location, prices and times that they are open and closed. 
+    * Icons are used to grap the users attention. Plus it is fully responsive.
+* ### Footer: 
+    * The footer contains links to Grip Clubs social media. They will open in a seprate tab. Icons helped keep the footer simple. 
+
+## <u>Future features : </u>
+* ### Accessibility :
+    * I have read about using :focus states when creating accessible websites. I would like to implement this once i have more understanding of how is best to use it. 
+    * I have also read that implementing error messages on forms is good for improving accessibility which i would like to do in the future. 
+* ### Icon :
+    * A more sophisticated logo within the Nav bar, that customers can clearly link with bouldering and Grip Club. I used a free icon, which does not convey the club well.
+* ### Events calendar :
+    * A simple calendar which allows for people to see if there are any events coming up. I think this would be an engaging addition to the website for frequent users. 
+
+## <u>Accessibility : </u>
+I have made sure to implement accessibility throughout this project. From the start I have tried to make sure that accessibility is being prioritised and not compromised by the design, so that the website works for everyone. To do this i have include : 
+* Semantic html.
+* Descriptive alt attributes on images. 
+* Making buttons, a, elements have descriptive content.
+* Making sure that the colour contrast is good.
+
+Click here to see the checklist that this website has met in terms of accessibility.  https://www.a11yproject.com/checklist/
