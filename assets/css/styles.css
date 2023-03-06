@@ -205,13 +205,14 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    gap: 1rem;
+    background-color: #659b5e;
 }
 
 .flex-item-2 {
     text-align: start;
     font-size: 1.7rem;
-    margin: 1rem 1rem;
-    
+    margin: 1rem 1rem;   
 }
 
 
