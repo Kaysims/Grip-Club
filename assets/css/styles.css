@@ -37,6 +37,11 @@ header {
     height: 5rem; 
 }
 
+#page-reminder {
+    border-bottom: 0.2rem solid #659B5E;
+    padding: 0.5rem 0rem;
+}
+
 /* NAV BAR */
 .nav-bar {
     min-height: 70px;
@@ -70,10 +75,10 @@ header {
 .nav-link {
     transition: 0.7s ease;
     color: #EBEBEB;
+    
 }
 
 .nav-link:hover {
-    background-color: #659B5E;
     font-size: 150%;
 }
 
@@ -307,6 +312,7 @@ header {
 
 /* FOOTER SECTION */
 .flex-container-five {
+    bottom:0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
