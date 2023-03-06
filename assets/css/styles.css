@@ -305,6 +305,38 @@ header {
     font-size: 1.7rem;
 }
 
+/* FOOTER SECTION */
+.flex-container-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #201f1f;
+    color: #EBEBEB;
+    padding: 0 3rem;
+    line-height: 5rem; 
+}
+
+.flex-container-five h4 {
+    font-size: 1.7rem;
+    margin-left: 1px;
+}
+
+.flex-item-5  i {
+    color: #ebebeb; 
+    font-size: 1.7rem;
+    padding: 0 0.5rem;
+    line-height: 5rem; 
+    margin-left: 10rem;
+}
+
+.flex-item-5 i:hover {
+    color: #659b5e;
+    font-size: 3rem;
+    transition: ease-in 0.7s;
+  }
+
 
 
 
