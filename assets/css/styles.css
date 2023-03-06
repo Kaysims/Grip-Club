@@ -1,8 +1,10 @@
 /* GOOGLE FONTS IMPORT */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Luckiest+Guy&family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Luckiest+Guy&display=swap');
 
 /* GLOBAL STYLES */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +31,7 @@ a {
 }
 
 /* HEADER */
+
 header {
     position: fixed;
     background-color: #201f1f;
@@ -38,11 +41,11 @@ header {
 }
 
 /* NAV BAR */
+
 .nav-bar {
     min-height: 70px;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
     padding: 0 3rem;
     line-height: 5rem;   
@@ -89,5 +92,8 @@ header {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #000;
+    background-color: #201f1f;
 }
+
+/* HERO IMAGE */
+
