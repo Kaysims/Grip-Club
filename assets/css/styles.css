@@ -156,4 +156,43 @@ header {
     
 }
 
+/* ABOUT US SECTION */
+.title {
+    font-size: 3rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+/* ABOUT US FLEX SECTION ONE */
+.flex-container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.item-1 {
+    flex-grow: 1;
+    margin-top: 0.4rem;
+}
+
+.item-1 h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.item-1 p {
+    text-align: center;
+    padding: 0.5rem 4rem;
+    font-size: 1.7rem;
+
+}
+
+
+
 
