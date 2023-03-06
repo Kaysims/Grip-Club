@@ -228,8 +228,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
 .flex-item-3 {
@@ -248,6 +247,49 @@ header {
     padding: 0.5rem 4rem;
     font-size: 1.7rem;
 }
+
+/* BENIFITS SECTION */
+.title-benifits {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.flex-container-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #659b5e;
+    padding: 7rem 5rem;
+}
+
+.flex-item-4 {
+    text-align: start;
+    margin: 1rem 1rem;   
+}
+
+.flex-item-4 i {
+    font-size: 4rem;
+    display: block;
+    text-align: center;
+}
+
+.flex-item-4 h3 {
+    text-align: center;
+    font-size: 2rem;
+
+  }
+  
+  .flex-item-4 p {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+
+
 
 
 
