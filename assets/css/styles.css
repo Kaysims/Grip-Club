@@ -204,7 +204,14 @@ header {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+}
 
+.flex-item-2 {
+    text-align: start;
+    font-size: 1.7rem;
+    margin: 1rem 1rem;
+    
 }
 
 
