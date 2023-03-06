@@ -207,6 +207,19 @@ header {
     align-items: center;
     gap: 1rem;
     background-color: #659b5e;
+    padding: 7rem 5rem;
+
+/* BACKGROUND WAVE EFFECT I DID NOT CODE THIS */
+    --mask: radial-gradient(111.8px at 50% 150px, #000 99%, #0000 101%)
+    calc(50% - 100px) 0/200px 51% repeat-x,
+  radial-gradient(111.8px at 50% -100px, #0000 99%, #000 101%) 50% 50px/200px
+    calc(51% - 50px) repeat-x,
+  radial-gradient(111.8px at 50% calc(100% - 150px), #000 99%, #0000 101%)
+    calc(50% - 100px) 100%/200px 51% repeat-x,
+  radial-gradient(111.8px at 50% calc(100% + 100px), #0000 99%, #000 101%) 50%
+    calc(100% - 50px) / 200px calc(51% - 50px) repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
 }
 
 .flex-item-2 {
@@ -214,6 +227,8 @@ header {
     font-size: 1.7rem;
     margin: 1rem 1rem;   
 }
+
+
 
 
 
