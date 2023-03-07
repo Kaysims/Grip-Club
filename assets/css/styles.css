@@ -347,7 +347,6 @@ header {
   /* CLASSES HTML PAGE STYLE */
 
   /* CLASSES HEADERS */
-
   section {
     z-index: 1;
   }
@@ -366,6 +365,19 @@ header {
     text-align: center;
     padding-top: 1rem;
 }
+
+/* CLASSES CARD SECTION USING FLEX */
+
+.flex-container-six {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+
 
 
 
