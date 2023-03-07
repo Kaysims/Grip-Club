@@ -31,7 +31,7 @@ a {
 
 /* HEADER */
 header {
-    position: sticky;
+    position: fixed;
     background-color: #201f1f;
     z-index: 999;
     width: 100%;
