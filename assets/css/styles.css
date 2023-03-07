@@ -401,6 +401,19 @@ header {
       margin-top: 2rem;
   }
 
+  .flex-item-6 .card h4 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+  }
+
+  .flex-item-6 .card p {
+    font-size: 1rem;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+  }
+
+
+
   
  
 
