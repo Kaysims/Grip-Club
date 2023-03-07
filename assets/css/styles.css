@@ -8,8 +8,9 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;  
 }
+
 
 html {
     font-family: 'fira-mono', sans-serif;
@@ -30,7 +31,7 @@ a {
 
 /* HEADER */
 header {
-    position: fixed;
+    position: sticky;
     background-color: #201f1f;
     z-index: 999;
     width: 100%;
@@ -343,6 +344,28 @@ header {
     transition: ease-in 0.7s;
   }
 
+  /* CLASSES HTML PAGE STYLE */
+
+  /* CLASSES HEADERS */
+
+  section {
+    z-index: 1;
+  }
+
+.classes-title {
+    font-size: 3rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 4.5rem;
+    
+}
+
+.classes-sub-title {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
 
 
 
