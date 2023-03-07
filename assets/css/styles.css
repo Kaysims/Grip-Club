@@ -371,8 +371,7 @@ header {
 .flex-container-six {
     width: 100%;
     display: flex;
-    gap: 3rem;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 7rem;
@@ -388,7 +387,7 @@ header {
     text-align: center;
     background-color: #659B5E;
     height: 30rem;
-    width: 20rem;
+    width: 25rem;
     transition: 0.5s ease;
     cursor: pointer;
   }
