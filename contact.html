@@ -72,7 +72,36 @@
      <form>
         <h3 class="contact">We would love to hear from you !</h3>
         <p class="get-in-touch">Any questions ? Any feedback? Any complaints ? Want to hire us ? Please get in touch.</p>
-
+    <!-- Form Input -->
+        <div class="flex-container-eight">
+            <div class="flex-item-contact">
+                <label for="name">Name</label>
+                <br>
+                <input id="name" type="text" name="fullname" placeholder="Full name" required>
+            </div>
+            <div class="flex-item-8"> 
+                <label for="email">Email</label>
+                <br>
+                <input id="email" type="email" name="emailaddress" placeholder="Your email" required>
+            </div>  
+            <div class="flex-item-8"> 
+                <label for="reason">Reason for contact</label>
+                <br>
+                <select id="reason" name="reason" required>
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="question">Question</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="hire">Hire out</option>
+                    <option value="complaint">Complaint</option>
+                </select>
+            </div>
+            <div class="flex-item-8"> 
+                <label for="text-area"></label>
+                <textarea id="text-area" name="text" placeholder="Type your message here..." rows="7" cols="2" required></textarea>
+            </div>    
+        </div>
+       
+        
      </form>
 
     
