@@ -455,9 +455,10 @@ header {
 
   table {
     padding: 0 5rem;
+    font-size: 1rem;
   }
 
-  /* FORM SECTION */
+  /* FORM SECTION TITLES */
 
   .contact {
     font-size: 3rem;
@@ -469,6 +470,51 @@ header {
     font-size: 1rem;
     text-align: center;
 }
+
+/* FORM SECTION */
+.flex-container-eight {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+
+.form-item-8 {
+    flex-grow: 1;
+}
+
+.flex-item-8 label {
+    font-size: 1.7rem;
+    text-align: 50%;
+}
+
+.flex-item-8 input {
+    width: 40rem; 
+    border-radius: 6px;
+    padding: 0.6rem;
+    border: 1px solid #659B5E;
+    transition: all 300ms ease;
+    margin-bottom: 1.25em;
+    margin-top: 0.5em;
+}
+
+.flex-item-8 select {
+    width: 40rem; 
+    border-radius: 6px;
+    padding: 0.6rem;
+    border: 1px solid green;
+    transition: all 300ms ease;
+    margin-bottom: 1.25em;
+    margin-top: 0.5em;
+}
+
+.flex-item-8 textarea {
+    width: 40rem;
+    border-radius: 6px;
+    padding: rem;
+}
+
+
 
 
 
