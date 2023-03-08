@@ -1,6 +1,6 @@
 /* GOOGLE FONTS IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Luckiest+Guy&family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 /* GLOBAL STYLES */
 * {
@@ -13,7 +13,7 @@
 
 
 html {
-    font-family: 'fira-mono', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #201f1f;
     background-color: #EBEBEB;
 }
@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
 a {
     color:#201f1f;
     text-transform: uppercase;
-    font-family:'fira-mono', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* HEADER */
@@ -463,10 +463,9 @@ header {
     font-size: 3rem;
     padding-top: 1rem;
     text-align: center;
-
 }
 
-.get-in-touch {
+ .get-in-touch {
     font-size: 1rem;
     text-align: center;
 }
