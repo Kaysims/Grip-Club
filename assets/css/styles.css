@@ -395,7 +395,7 @@ header {
   .flex-item-6:hover {
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0,0.6);
-}
+  }   
   
   .flex-item-6 .card {
       flex: 1;
@@ -417,6 +417,44 @@ header {
     font-size: 1rem;
     margin: 0 2rem;
     padding-bottom: 2rem;
+  }
+
+  /* CONTACT US HTML PAGE STYLE */
+
+  /* INFO SECTION */
+  
+  .flex-container-seven {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 3rem;
+    padding: 10rem 1rem; 
+    width: 100%;
+  }
+
+  .flex-item-7 {
+    flex: 1;
+  }
+
+  .flex-item-7 i {
+    font-size: 3rem; 
+    color: #659B5E;
+    padding-bottom: 1rem;
+  }
+  
+  .flex-item-7 h3 {
+    font-size: 2rem;
+  }
+  
+  .flex-item-7 p {
+    font-size: 1rem;
+  }
+
+  table {
+    padding: 0 5rem;
   }
 
 
