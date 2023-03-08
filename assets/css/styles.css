@@ -277,7 +277,7 @@ header {
     background-color: #659b5e;
     padding: 7rem 5rem;
 
-    /* BACKGROUND WAVE EFFECT BENIFITS SECETION I DID NOT CODE THIS */
+    /* BACKGROUND WAVE EFFECT BENIFITS SECTION I DID NOT CODE THIS */
     --mask: radial-gradient(111.8px at 50% 150px, #000 99%, #0000 101%)
     calc(50% - 100px) 0/200px 51% repeat-x,
   radial-gradient(111.8px at 50% -100px, #0000 99%, #000 101%) 50% 50px/200px
@@ -432,7 +432,21 @@ header {
     text-align: center;
     gap: 3rem;
     padding-top: 10rem; 
+    padding-bottom: 5rem;
     width: 100%;
+    background-color: #659B5E;
+
+     /* BACKGROUND WAVE EFFECT INFO SECTION I DID NOT CODE THIS */
+     --mask: radial-gradient(111.8px at 50% 150px, #000 99%, #0000 101%)
+     calc(50% - 100px) 0/200px 51% repeat-x,
+   radial-gradient(111.8px at 50% -100px, #0000 99%, #000 101%) 50% 50px/200px
+     calc(51% - 50px) repeat-x,
+   radial-gradient(111.8px at 50% calc(100% - 150px), #000 99%, #0000 101%)
+     calc(50% - 100px) 100%/200px 51% repeat-x,
+   radial-gradient(111.8px at 50% calc(100% + 100px), #0000 99%, #000 101%) 50%
+     calc(100% - 50px) / 200px calc(51% - 50px) repeat-x;
+     -webkit-mask: var(--mask);
+     mask: var(--mask);
   }
 
   .flex-item-7 {
@@ -441,7 +455,7 @@ header {
 
   .flex-item-7 i {
     font-size: 3rem; 
-    color: #659B5E;
+    
     padding-bottom: 1rem;
   }
   
@@ -493,7 +507,7 @@ header {
     width: 40rem; 
     border-radius: 6px;
     padding: 0.6rem;
-    border: 1px solid #659B5E;
+    border: 2px solid #659B5E;
     transition: all 300ms ease;
     margin-bottom: 1.25em;
     margin-top: 0.5em;
@@ -503,7 +517,7 @@ header {
     width: 40rem; 
     border-radius: 6px;
     padding: 0.6rem;
-    border: 1px solid green;
+    border: 2px solid green;
     transition: all 300ms ease;
     margin-bottom: 1.25em;
     margin-top: 0.5em;
@@ -512,6 +526,7 @@ header {
 .flex-item-8 textarea {
     width: 40rem;
     border-radius: 6px;
+    border: 2px solid green;
 }
 
 .flex-item-8 button {
@@ -519,6 +534,12 @@ header {
     border-radius: 6px;
     padding: 0.6rem;
     width: 10rem;
+    transition: 0.5s ease-in;
+    border: 1px solid #201f1f;
+}
+
+.flex-item-8 button:hover {
+    background-color: #659B5E;
 }
 
 
