@@ -366,7 +366,7 @@ header {
 .classes-sub-title {
     font-size: 1.5rem;
     text-align: center;
-    padding-top: 1rem;
+    padding: 1rem 2rem;
 }
 
 /* CLASSES CARD SECTION USING FLEX */
@@ -553,6 +553,7 @@ header {
         font-size: 2.3rem;
     }
 
+
 /* TO MAKE FOOTER RESPONSIVE */
 .flex-container-five {
         text-align: center;
@@ -609,6 +610,7 @@ header {
   #hero-button {
     padding: 0.5rem 0.7rem;
   }
+
 /* TO MAKE ABOUT US SECTION RESPOSIVE */
 
   .flex-item-1 h2 { 
@@ -636,6 +638,25 @@ header {
 
  .flex-item-4 p {
     font-size: 1rem;
+ }
+
+ .classes-title {
+    text-align: center;
+    font-size: 2rem;
+ }
+
+ .classes-sub-title {
+    font-size: 1rem;
+    padding: 0 3rem;
+ }
+
+ .flex-item-6 {
+    width: 15rem;
+ }
+
+ .flex-item-6 .card img {
+    width: 8rem;
+    height: 8rem;
  }
 
 }
