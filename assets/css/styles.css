@@ -577,7 +577,7 @@ section {
 }
 
 /* TO MAKE SITE RESPONSIVE FOR PHONES */
-@media only screen and (max-width: 514px) {
+@media only screen and (max-width: 600px) {
     .home-button {
         font-size: 1.5rem;
     }
@@ -646,6 +646,11 @@ section {
 
     .flex-container-seven {
         flex-direction: column;
+    }
+
+    .contact {
+        font-size: 1.7rem;
+
     }
 
     .flex-item-8 input {
