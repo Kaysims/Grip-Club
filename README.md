@@ -173,6 +173,23 @@ Click here to see the checklist that this website has met in terms of accessibil
 Initial deployment/how to fork/how to clone.
 
 # Testing
+### HTML [W3C Html validator](https://validator.w3.org/) was used to test the html.
+ * HTML Validation for index.html no errors were found.
+ ![Html validation for index.html](assets/readme-images/index-html-checker.png)
+
+ * HTML Validation for classes.html no errors were found.
+ ![Html validation for index.html](assets/readme-images/classes-html-checker.png)
+
+ * HTML Validation for contact.html no errors were found.
+ ![Html validation for index.html](assets/readme-images/contact-html-checker.png)
+
+### CSS [W3C CSS validator](https://jigsaw.w3.org/css-validator/) was used to test the css.
+ * CSS Validation no errors were found.
+ ![css validation](assets/readme-images/w3c-validator.png)
+    
+
+
+
 
 # Credits
 ### Content 
