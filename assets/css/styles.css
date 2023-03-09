@@ -640,6 +640,8 @@ header {
     font-size: 1rem;
  }
 
+ /* TO MAKE CLASSES SECTION RESPOSIVE */
+
  .classes-title {
     text-align: center;
     font-size: 2rem;
@@ -659,7 +661,29 @@ header {
     height: 8rem;
  }
 
+ /* TO MAKE CONTACT US SECTION RESPOSIVE */
+
+  .flex-container-seven {
+    flex-direction: column;
+  }
+  .contact {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .flex-item-8 input {
+    width: 15rem;
+  }
+
+  .flex-item-8 select {
+    width: 15rem;
+  }
+
+  .flex-item-8 textarea {
+    width: 15rem;
+  }
 }
+
 
 
 
