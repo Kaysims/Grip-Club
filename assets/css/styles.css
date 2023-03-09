@@ -546,6 +546,13 @@ header {
 
 /* MEDIA QUERIES */
 
+/* MEDIUM LAPTOP-TABLET SIZE THIS WAS TO MAKE THE FACILITIES AND BENFITS DROP TO 2/1 AT THE SAME POINT*/
+@media only screen and (max-width: 1230px) {
+    .flex-item-2 {
+        font-size: 2.3rem;
+    }
+}
+
 
 
 @media (max-width: 950px) {
@@ -582,6 +589,7 @@ header {
     .nav-menu.active {
       left: 0;
     }
+
 }
 
 
