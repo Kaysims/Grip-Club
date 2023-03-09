@@ -91,7 +91,15 @@ All icons used are from [font-awesome.](https://fontawesome.com/) The images are
 
 ## <u>Wireframes : </u>
 
-Balsamiq wireframes
+Balsamiq wireframes was used to create a template display for Desktop, tablets and phones. Some changes have been made when making the site. 
+
+* This is the template for the hero image and about us page. ![Wireframe home and about us](assets/readme-images/about-wireframe.png)
+
+* This is the template for the classes page. ![Wireframe classes](assets/readme-images/classes-wireframe.png)
+
+* This is the template for the contact us page. ![Wireframe contact us](assets/readme-images/contact-wireframe.png)
+
+
 
 ## <u>Features :</u>
 The website is designed to be simple and easy to use, this is achived by using common website features, like a nav bar, an icon, a contact page. The site has three pages which are all accessibile via the navigation menu. 
@@ -115,7 +123,7 @@ The website is designed to be simple and easy to use, this is achived by using c
     * The contact page also has a dropdown for the user to select why they are contacting the club and a textarea for them to write a message. 
     * A submit button allows users to submit the form, but only if all sections are filled in. 
 * ### Thank you pop up:
-    * This pop up shows when a user has submitted a form. It will thank them for contacting Grip Club and let the user know that someone will get back to them 
+    * This pop up shows when a user has submitted a form. It will thank them for contacting Grip Club and let the user know that someone will get back to them. 
     
 * ### Info section:
     * The info section provides important information about the clubs location, prices and times that they are open and closed. 
