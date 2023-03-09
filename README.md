@@ -82,7 +82,7 @@ The colour palette was created using [Coolors website,](https://coolors.co/) tak
 * Luckiest guy is used for headings on the site. It was chosen as it has a friendly fun appearance which matches the environment Grip Club would like to create. Plus it's a San Serif typeface.
  ![Colour Palate image](assets/readme-images/title-font.png)
 
-* Fira Mono regular 400 was used for all other text on the page. It was choosen as it is a simple font. It's a sans-serif font which is good for accessibility.
+* Ubuntu light 300 was used for all other text on the page. It was choosen as it is a simple font. It's also a sans-serif font which is good for accessibility.
 ![Colour Palate image](assets/readme-images/font-text.png)
 
 ## <u>Imagery :</u>
