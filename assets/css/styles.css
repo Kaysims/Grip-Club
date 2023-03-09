@@ -551,7 +551,7 @@ header {
     .flex-item-2 {
         font-size: 2.3rem;
     }
-}
+
 /* TO MAKE FOOTER RESPONSIVE */
 .flex-container-five {
         text-align: center;
@@ -574,7 +574,24 @@ header {
 
     }
 
+}
 
+/* TO MAKE THE CLASSES CARDS LESS TIGHT WITH SMALL LAPTOP TO TABLET */
+@media only screen and (max-width: 1052px) {
+    .flex-container-six {
+        gap: 2rem;
+        
+    }
+}
+
+/* TO MAKE NAV ICON RESPOSNIVE FOR PHONES */
+@media only screen and (max-width: 502px) {
+    .home-button {
+       font-size: 1.7rem;
+
+        }
+
+}
     
 
 @media (max-width: 950px) {
