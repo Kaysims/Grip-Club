@@ -397,7 +397,6 @@ section {
 
 .flex-item-6:hover {
     transform: scale(1.15);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0, 0.6);
 }
 
 .flex-item-6 .card {
@@ -494,7 +493,7 @@ section {
 
 .flex-item-8 label {
     font-size: 1.7rem;
-    text-align: 50%;
+    text-align: center;
 }
 
 .flex-item-8 input {
