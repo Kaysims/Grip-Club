@@ -547,14 +547,12 @@ header {
 
 /* MEDIA QUERIES */
 
-/* MEDIUM LAPTOP-TABLET SIZE THIS WAS TO MAKE THE FACILITIES AND BENFITS DROP TO 2/1 AT THE SAME POINT*/
+/* MEDIUM LAPTOP-TABLET SIZE */
 @media only screen and (max-width: 1230px) {
     .flex-item-2 {
         font-size: 2.3rem;
     }
 
-
-/* TO MAKE FOOTER RESPONSIVE */
 .flex-container-five {
         text-align: center;
         flex-direction: row;
@@ -578,7 +576,7 @@ header {
 
 }
 
-/* TO MAKE THE CLASSES CARDS LESS TIGHT WITH SMALL LAPTOP TO TABLET */
+/* TO MAKE THE CLASSES CARDS HAVE MORE SPACE FOR SMALL LAPTOP-TABLET */
 @media only screen and (max-width: 1052px) {
     .flex-container-six {
         gap: 2rem;
@@ -586,13 +584,11 @@ header {
     }
 }
 
-/* TO MAKE NAV ICON RESPOSNIVE FOR PHONES */
+/* TO MAKE SIT RESPONSIVE FOR PHONES */
 @media only screen and (max-width: 514px) {
     .home-button {
        font-size: 1.5rem;
     }
-
- /* TO HERO ICON RESPOSNIVE FOR PHONES */   
 
    #hero-section {
     height: 700px;
@@ -611,8 +607,6 @@ header {
     padding: 0.5rem 0.7rem;
   }
 
-/* TO MAKE ABOUT US SECTION RESPOSIVE */
-
   .flex-item-1 h2 { 
     font-size: 1.7rem; 
 }
@@ -623,8 +617,7 @@ header {
 }
 
   .flex-item-2 {
-    font-size: 1rem;
-    
+    font-size: 1rem;  
 }
 
   .flex-item-3 h2 { 
@@ -639,8 +632,6 @@ header {
  .flex-item-4 p {
     font-size: 1rem;
  }
-
- /* TO MAKE CLASSES SECTION RESPOSIVE */
 
  .classes-title {
     text-align: center;
@@ -660,8 +651,6 @@ header {
     width: 8rem;
     height: 8rem;
  }
-
- /* TO MAKE CONTACT US SECTION RESPOSIVE */
 
   .flex-container-seven {
     flex-direction: column;
@@ -683,12 +672,8 @@ header {
     width: 15rem;
   }
 }
-
-
-
-
     
-/* NAV HAMBURGER RESPONSIVE FOR TABLET AND PHONES */
+/* NAV HAMBURGER FOR TABLET AND PHONES */
 @media (max-width: 950px) {
     .hamburger {
       display: inline;
