@@ -197,26 +197,26 @@ Initial deployment/how to fork/how to clone.
  ## Lighthouse Testing
  * Lighthouse testing was used to check the performance, accissibility, best practise and SEO of the Grip Club website. The websit went through the [Google Dev Tools.](https://www.google.com/chrome/dev/)
 
-* ### Chrome desktop about us page Lighthouse results :
+* Chrome desktop about us page Lighthouse results :
 ![About us desktop results](assets/readme-images/about-desktop.png)
 
-* ### Chrome desktop classes page Lighthouse results :
+* Chrome desktop classes page Lighthouse results :
 ![Classes desktop results](assets/readme-images/classes-desktop.png)
 
-* ### Chrome desktop contact page Lighthouse results :
+* Chrome desktop contact page Lighthouse results :
 ![Contact desktop results](assets/readme-images/contact-desktop.png)
 
 * Some bugs have been fixed using Chrome dev tools prioir to this lighthouse test, this will be discussed below in fixed bugs section. 
 * The perfomance was down one point across all pages, the reason shown in dev tools was "Eliminate render-blocking resources". It was in relation to my css in the head. I tried to fix this, but i could not work out how to. I have decided to leave it as it is. As this is my first project i am hoping that with further knowledge i will be able to fix this issue in the future. 
 * The best practise for Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images. It was recommended to use a CDN to optimise the images, or add width and height to the html. I decided not to do this, one reason was that adding the width and height to the html impacted the responsivness. I will consider using the CDN for images in the future, but i will not have time to do this for this project. 
 
-* ### Chrome mobile about us page Lighthouse results :
+* Chrome mobile about us page Lighthouse results :
 ![About us mobile results](assets/readme-images/about-mobile.png)
 
-* ### Chrome mobile classes page Lighthouse results :
+* Chrome mobile classes page Lighthouse results :
 ![Classes mobile results](assets/readme-images/classes-mobile.png)
 
-* ### Chrome mobile contact page Lighthouse results :
+* Chrome mobile contact page Lighthouse results :
 ![Contact mobile results](assets/readme-images/contact-mobile.png)
 
 * Some bugs have been fixed using Chrome dev tools prioir to this lighthouse test, this will be discussed below in fixed bugs section.
@@ -231,27 +231,27 @@ Initial deployment/how to fork/how to clone.
 
 ## Wave tool testing
 [Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site. Wave checked for any errors and colour contrast. Some corrections have been made prioir to these results that will be discussed in the fixed bug section. 
-* ### Wave tool results for about us page : 
+* Wave tool results for about us page : 
   * The results show 2 contrast errors with the h1 and p in the hero section. I am not concerned with this as the contrast has passed other contrast tests and has meet the WCAG 2.1 AA and AAA guidlines.
 
-![About wave results](assets/readme-images/about-wave.png)
+  ![About wave results](assets/readme-images/about-wave.png)
 
-* ### Wave tool results for classes page :
+* Wave tool results for classes page :
 ![Classses wave results](assets/readme-images/classes-wave.png)
 
-* ### Wave tool results for contact us page :
+* Wave tool results for contact us page :
 ![Contact wave results](assets/readme-images/contact-wave.png)
 
 ## Accessibility testing 
 * To check the accessibility of Grip Club website i used [a11y.](https://color.a11y.com/Contrast/) This checked the contrast and no issues were found. 
 
-* ### A11y checker for about us page :
+* A11y checker for about us page :
 ![ay11 results aboutus](assets/readme-images/a11y-about.png)
 
-* ### A11y checker for classes page :
+* A11y checker for classes page :
 ![ay11 results classes](assets/readme-images/a11y-classes.png)
 
-* ### A11y checker for contact us page :
+* A11y checker for contact us page :
 ![ay11 results contact](assets/readme-images/a11y-contact.png)
 
 * I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
