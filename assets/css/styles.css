@@ -107,6 +107,7 @@ header {
 #hero-section {
     width: 100vw;
     height: 100vh;
+    background-color: #201f1f;
     background: url("../images/hero-img.png") center center;
     background-size: cover;
     display: flex;
@@ -135,7 +136,7 @@ header {
 /* HERO IMAGE TEXT */
 #hero-section h1 {
     font-size: 5rem;
-    color: #EBEBEB;
+    color: #fffafa;
 }
 
 #hero-section p {
