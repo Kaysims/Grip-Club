@@ -229,6 +229,8 @@ Initial deployment/how to fork/how to clone.
 * ### Lighthouse conclusion : 
     It is clear that the images used within the Grip Club website has caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes i am not going to make any changes, however in the future with more experiance or if this site was to go live i would address these.
 
+## Wave tool testing
+[Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site
 
 
 
