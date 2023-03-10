@@ -4,7 +4,7 @@ Grip Club is a local family run bouldering gym based in Essex. This site is aime
 
 You can view the live site here - 
 
-Screenshoots of responsive site
+![Responsive home screens](assets/readme-images/main-image.png)
 
 # User Experience
 
@@ -197,26 +197,26 @@ Initial deployment/how to fork/how to clone.
  ## Lighthouse Testing
  * Lighthouse testing was used to check the performance, accissibility, best practise and SEO of the Grip Club website. The websit went through the [Google Dev Tools.](https://www.google.com/chrome/dev/)
 
-* Chrome desktop about us page Lighthouse results :
+* ### Chrome desktop about us page Lighthouse results :
 ![About us desktop results](assets/readme-images/about-desktop.png)
 
-* Chrome desktop classes page Lighthouse results :
+* ### Chrome desktop classes page Lighthouse results :
 ![Classes desktop results](assets/readme-images/classes-desktop.png)
 
-* Chrome desktop contact page Lighthouse results :
+* ### Chrome desktop contact page Lighthouse results :
 ![Contact desktop results](assets/readme-images/contact-desktop.png)
 
 * Some bugs have been fixed using Chrome dev tools prioir to this lighthouse test, this will be discussed below in fixed bugs section. 
 * The perfomance was down one point across all pages, the reason shown in dev tools was "Eliminate render-blocking resources". It was in relation to my css in the head. I tried to fix this, but i could not work out how to. I have decided to leave it as it is. As this is my first project i am hoping that with further knowledge i will be able to fix this issue in the future. 
 * The best practise for Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images. It was recommended to use a CDN to optimise the images, or add width and height to the html. I decided not to do this, one reason was that adding the width and height to the html impacted the responsivness. I will consider using the CDN for images in the future, but i will not have time to do this for this project. 
 
-* Chrome mobile about us page Lighthouse results :
+* ### Chrome mobile about us page Lighthouse results :
 ![About us mobile results](assets/readme-images/about-mobile.png)
 
-* Chrome mobile classes page Lighthouse results :
+* ### Chrome mobile classes page Lighthouse results :
 ![Classes mobile results](assets/readme-images/classes-mobile.png)
 
-* Chrome mobile contact page Lighthouse results :
+* ### Chrome mobile contact page Lighthouse results :
 ![Contact mobile results](assets/readme-images/contact-mobile.png)
 
 * Some bugs have been fixed using Chrome dev tools prioir to this lighthouse test, this will be discussed below in fixed bugs section.
@@ -231,27 +231,27 @@ Initial deployment/how to fork/how to clone.
 
 ## Wave tool testing
 [Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site. Wave checked for any errors and colour contrast. Some corrections have been made prioir to these results that will be discussed in the fixed bug section. 
-* Wave tool results for about us page : 
+* ### Wave tool results for about us page : 
   * The results show 2 contrast errors with the h1 and p in the hero section. I am not concerned with this as the contrast has passed other contrast tests and has meet the WCAG 2.1 AA and AAA guidlines.
 
-  ![About wave results](assets/readme-images/about-wave.png)
+![About wave results](assets/readme-images/about-wave.png)
 
-* Wave tool results for classes page :
+* ### Wave tool results for classes page :
 ![Classses wave results](assets/readme-images/classes-wave.png)
 
-* Wave tool results for contact us page :
+* ### Wave tool results for contact us page :
 ![Contact wave results](assets/readme-images/contact-wave.png)
 
 ## Accessibility testing 
 * To check the accessibility of Grip Club website i used [a11y.](https://color.a11y.com/Contrast/) This checked the contrast and no issues were found. 
 
-* A11y checker for about us page :
+* ### A11y checker for about us page :
 ![ay11 results aboutus](assets/readme-images/a11y-about.png)
 
-* A11y checker for classes page :
+* ### A11y checker for classes page :
 ![ay11 results classes](assets/readme-images/a11y-classes.png)
 
-* A11y checker for contact us page :
+* ### A11y checker for contact us page :
 ![ay11 results contact](assets/readme-images/a11y-contact.png)
 
 * I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
@@ -259,6 +259,9 @@ Initial deployment/how to fork/how to clone.
     * I have also jumped some headings, the reason i did this was to help with sizing of text, but know i understand that this should not have been done, and that they should follow from h1 then h2 then h3 and so on. 
     * I should have included error messages for when forms have been submitted, i did add a thank you popup, but this is not enough to achive accsessibility.  
     * I am hoping to learn alot more about accessibility as i progress through the code institute course.
+
+## Responsiveness Testing
+* To check the responsive design of the Grip Club Website, i used [Google Dev Tools.](https://www.google.com/chrome/dev/) This was done manually. I also used [Am i responsive](https://ui.dev/amiresponsive).
 
 # Credits
 ### Content 
@@ -275,6 +278,9 @@ Initial deployment/how to fork/how to clone.
     * [Wikipedia](https://en.wikipedia.org/wiki/Bouldering) - Used to write the "what is bouldering" in the wbout section.
     * [CSS generator](https://css-generators.com/wavy-shapes/) - Used to create the wavy background effect. I did not write the code. 
     * [ARIA](https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/) - Used to help me understand how best to implement semantic HTML and make websites as accessible as possible. 
+    * [Wave tool](https://wave.webaim.org/) - Used to check the for errors on site.
+    * [a11y](https://color.a11y.com/Contrast/) - Used to check for accessibility on the site.
+    * [Am i responsive](https://ui.dev/amiresponsive) - Used to create the multiple images in readme.
 
 
 * Youtube :
