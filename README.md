@@ -195,7 +195,7 @@ Initial deployment/how to fork/how to clone.
  ![js validation](assets/readme-images/js-validator.png)
 
  ## Lighthouse Testing
- * Lighthouse testing was used to check the performance, accissibility, best practise and SEO of the Grip Club website. The websit went through the [Google Dev Tools](https://www.google.com/chrome/dev/)
+ * Lighthouse testing was used to check the performance, accissibility, best practise and SEO of the Grip Club website. The websit went through the [Google Dev Tools.](https://www.google.com/chrome/dev/)
 
 * ### Chrome desktop about us page Lighthouse results :
 ![About us desktop results](assets/readme-images/about-desktop.png)
@@ -206,6 +206,10 @@ Initial deployment/how to fork/how to clone.
 * ### Chrome desktop contact page Lighthouse results :
 ![Contact desktop results](assets/readme-images/contact-desktop.png)
 
+* Some bugs have been fixed using Chrome dev tools prioir to this lighthouse test, this will be discussed below in fixed bugs section. 
+* The perfomance was down one point across all pages, the reason shown in dev tools was "Eliminate render-blocking resources". It was in relation to my css in the head. I tried to fix this, but i could not work out how to. I have decided to leave it as it is. As this is my first project i am hoping that with further knowledge i will be able to fix this issue in the future. 
+* The best practise for Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images. It was recommended to use a CDN to optimise the images, or add width and height to the html. I decided not to do this, one reason was that adding the width and height to the html impacted the responsivness. I will consider using the CDN for images in the future, but i will not have time to do this for this project. 
+
 * ### Chrome mobile about us page Lighthouse results :
 ![About us mobile results](assets/readme-images/about-mobile.png)
 
@@ -214,6 +218,14 @@ Initial deployment/how to fork/how to clone.
 
 * ### Chrome mobile contact page Lighthouse results :
 ![Contact mobile results](assets/readme-images/contact-mobile.png)
+
+* Some bugs have been fixed using Chrome dev tools prioir to this lighthouse test, this will be discussed below in fixed bugs section.
+* The performance was down between 10-4 points for the mobile display. Agiain the "Eliminate render-blocking resources" was flagged in the lighthouse tests which is discussed above.
+    * About us page : Dev tools says to change the png images to WebP or AVIF, i did try to do this but i still got a warning message so went back to the png images i orginally had.
+    * Classes page : Dev tools says to change the png images to WebP or AVIF, i did try to do this but i still got a warning message so went back to the png images i orginally had. Plus the aspect ratio was again highlighted in the test.
+    * Contact us page : Dev tools also says to enable text compression. 
+* One again the best practise for Grip Club classes page was down eight points for the same reasons as stated in the above desktop lighthouse.
+
 
 
 
