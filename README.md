@@ -230,8 +230,15 @@ Initial deployment/how to fork/how to clone.
     It is clear that the images used within the Grip Club website has caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes i am not going to make any changes, however in the future with more experiance or if this site was to go live i would address these.
 
 ## Wave tool testing
-[Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site
+[Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site. Wave checked for any errors and colour contrast. Some corrections have been made prioir to these results that will be discussed in the fixed bug section. 
+* ### Wave tool results for about us page : The results show 2 contrast errors with the h1 and p in the hero section. I am not concerned with this as the contrast has passed other contrast tests and has meet the WCAG 2.1 AA and AAA guidlines.
+![Contact mobile results](assets/readme-images/about-wave.png)
 
+* ### Wave tool results for classes page :
+![Contact mobile results](assets/readme-images/classes-wave.png)
+
+* ### Wave tool results for contact us page :
+![Contact mobile results](assets/readme-images/contact-wave.png)
 
 
 
