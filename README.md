@@ -135,6 +135,7 @@ The website is designed to be simple and easy to use, this is achived by using c
 * ### Accessibility :
     * I have read about using :focus states when creating accessible websites. I would like to implement this once i have more understanding of how is best to use it. 
     * I have also read that implementing error messages on forms is good for improving accessibility which i would like to do in the future. 
+    * Restyling of the headers so the follow logically.
 * ### Icon :
     * A more sophisticated logo within the Nav bar, that customers can clearly link with bouldering and Grip Club. I used a free icon, which does not convey the club well.
 * ### Events calendar :
@@ -147,7 +148,6 @@ I have made sure to implement accessibility throughout this project. From the st
 * Making buttons, a, elements have descriptive content.
 * Making sure that the colour contrast is good.
 
-Click here to see the checklist that this website has met in terms of accessibility.  https://www.a11yproject.com/checklist/
 
 # Technologies used
 
@@ -224,23 +224,41 @@ Initial deployment/how to fork/how to clone.
     * About us page : Dev tools says to change the png images to WebP or AVIF, i did try to do this but i still got a warning message so went back to the png images i orginally had.
     * Classes page : Dev tools says to change the png images to WebP or AVIF, i did try to do this but i still got a warning message so went back to the png images i orginally had.
     * Contact us page : Dev tools also says to enable text compression.
-* One again the best practise for Grip Club classes page was down eight points for the same reasons as stated in the above desktop lighthouse.
+* The best practise for Grip Club classes page was down eight points for the same reasons as stated in the above desktop lighthouse.
 
 * ### Lighthouse conclusion : 
     It is clear that the images used within the Grip Club website has caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes i am not going to make any changes, however in the future with more experiance or if this site was to go live i would address these.
 
 ## Wave tool testing
 [Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site. Wave checked for any errors and colour contrast. Some corrections have been made prioir to these results that will be discussed in the fixed bug section. 
-* ### Wave tool results for about us page : The results show 2 contrast errors with the h1 and p in the hero section. I am not concerned with this as the contrast has passed other contrast tests and has meet the WCAG 2.1 AA and AAA guidlines.
-![Contact mobile results](assets/readme-images/about-wave.png)
+* ### Wave tool results for about us page : 
+  * The results show 2 contrast errors with the h1 and p in the hero section. I am not concerned with this as the contrast has passed other contrast tests and has meet the WCAG 2.1 AA and AAA guidlines.
+
+![About wave results](assets/readme-images/about-wave.png)
 
 * ### Wave tool results for classes page :
-![Contact mobile results](assets/readme-images/classes-wave.png)
+![Classses wave results](assets/readme-images/classes-wave.png)
 
 * ### Wave tool results for contact us page :
-![Contact mobile results](assets/readme-images/contact-wave.png)
+![Contact wave results](assets/readme-images/contact-wave.png)
 
+## Accessibility testing 
+* To check the accessibility of Grip Club website i used [a11y.](https://color.a11y.com/Contrast/) This checked the contrast and no issues were found. 
 
+* ### A11y checker for about us page :
+![ay11 results aboutus](assets/readme-images/a11y-about.png)
+
+* ### A11y checker for classes page :
+![ay11 results classes](assets/readme-images/a11y-classes.png)
+
+* ### A11y checker for contact us page :
+![ay11 results contact](assets/readme-images/a11y-contact.png)
+
+* I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
+    * It used at the beginning of creating the site to familirise myself with accessibility. I then completed it once the site was finished. There were some things that i could not tick off such as ensuring controls have :focus states.
+    * I have also jumped some headings, the reason i did this was to help with sizing of text, but know i understand that this should not have been done, and that they should follow from h1 then h2 then h3 and so on. 
+    * I should have included error messages for when forms have been submitted, i did add a thank you popup, but this is not enough to achive accsessibility.  
+    * I am hoping to learn alot more about accessibility as i progress through the code institute course.
 
 # Credits
 ### Content 
