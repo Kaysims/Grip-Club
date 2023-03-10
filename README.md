@@ -195,6 +195,27 @@ Initial deployment/how to fork/how to clone.
  ![js validation](assets/readme-images/js-validator.png)
 
  ## Lighthouse Testing
+ * Lighthouse testing was used to check the performance, accissibility, best practise and SEO of the Grip Club website. The websit went through the [Google Dev Tools](https://www.google.com/chrome/dev/)
+
+* ### Chrome desktop about us page Lighthouse results :
+![About us desktop results](assets/readme-images/fixed-about-desktop.png)
+
+* ### Chrome desktop classes page Lighthouse results :
+![Classes desktop results](assets/readme-images/fixed-classes-desktop.png)
+
+* ### Chrome desktop classes page Lighthouse results :
+![Classes desktop results](assets/readme-images/fixed-contact-desktop.png)
+
+* ### Chrome mobile about us page Lighthouse results :
+![About us mobile results](assets/readme-images/about-mobile.png)
+
+* ### Chrome mobile classes page Lighthouse results :
+![Classes mobile results](assets/readme-images/classes-mobile.png)
+
+* ### Chrome mobile contact page Lighthouse results :
+![Contact mobile results](assets/readme-images/contact-mobile.png)
+
+
 
 
 # Credits
