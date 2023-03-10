@@ -220,11 +220,14 @@ Initial deployment/how to fork/how to clone.
 ![Contact mobile results](assets/readme-images/contact-mobile.png)
 
 * Some bugs have been fixed using Chrome dev tools prioir to this lighthouse test, this will be discussed below in fixed bugs section.
-* The performance was down between 10-4 points for the mobile display. Agiain the "Eliminate render-blocking resources" was flagged in the lighthouse tests which is discussed above.
+* The performance was down between 7-2 points for the mobile display. Agiain the "Eliminate render-blocking resources" was flagged in the lighthouse tests which is discussed above.
     * About us page : Dev tools says to change the png images to WebP or AVIF, i did try to do this but i still got a warning message so went back to the png images i orginally had.
-    * Classes page : Dev tools says to change the png images to WebP or AVIF, i did try to do this but i still got a warning message so went back to the png images i orginally had. Plus the aspect ratio was again highlighted in the test.
-    * Contact us page : Dev tools also says to enable text compression. 
+    * Classes page : Dev tools says to change the png images to WebP or AVIF, i did try to do this but i still got a warning message so went back to the png images i orginally had.
+    * Contact us page : Dev tools also says to enable text compression.
 * One again the best practise for Grip Club classes page was down eight points for the same reasons as stated in the above desktop lighthouse.
+
+* ### Lighthouse conclusion : 
+    It is clear that the images used within the Grip Club website has caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes i am not going to make any changes, however in the future with more experiance or if this site was to go live i would address these.
 
 
 
