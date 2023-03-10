@@ -104,30 +104,68 @@ Balsamiq wireframes was used to create a template display for Desktop, tablets a
 ## <u>Features :</u>
 The website is designed to be simple and easy to use, this is achived by using common website features, like a nav bar, an icon, a contact page. The site has three pages which are all accessibile via the navigation menu. 
 * ### Navigation bar:
-    * The Navigation bar remains fixed, and contains links to diffrent parts of the site.
-    * The Navigation bar is responsive as the hamburger icon allows the menu nav bar to compress on smaller screen sizes. 
-    * The logo takes users back to the home page.
+    * The navigation bar remains fixed, and contains links to diffrent parts of the site.
+    * The navigation bar is responsive as the hamburger icon allows the menu nav bar to compress on smaller screen sizes, it then has a dropdown function to select the page the user wishes to go to. 
+    * The navigation bar has the Grip Club icon on the left.
+
+    <details><summary><b>Desktop Navigation Bar Image</b></summary>
+
+    ![Desktop Navigation Bar Image](assets/readme-images/desktop-nav.png)
+    </details><br />
+
+    <details><summary><b>Mobile Navigation Bar Image</b></summary>
+
+    ![Mobile Navigation Bar Image](assets/readme-images/mobile-nav.png)
+    </details><br />
+
+    <details><summary><b>Mobile Navigation Bar Dropdown Image</b></summary>
+
+    ![Mobile Navigation Bar Dropdown Image](assets/readme-images/mobile-nav-dropdown.png)
+    </details><br />
+
+
 * ### Home page:
-    * The home page is designed to give a clear message of what this site is about. The hero image takes up the full width of the screen.
-    * In the center of the image is the Company name and a breif discription of the club.
-    * A button then allows users to jump to the About us section this will then provide further information about bouldering and the club. 
+    * The home page is designed to give a clear message of what this site is about. The hero image takes up the full width of the screen. The page is responsive.
+    * In the center of the image is the Company name and a breif discription of what the club is.
+    * A button then allows users to jump to the About Us section this will then provide further information about bouldering and the club. 
+
+     <details><summary><b>Home Page Image</b></summary>
+
+    ![Home Page Image](assets/readme-images/desktop-hero.png)
+    </details><br />
+
+
 * ### About us page:
-    * The about us page is designed to provide information on what bouldering is, and more information about the club.
-    * The benefits section has icons to catch the users attention. Plus it is responsive. 
-    * There is a facilities section which will list the various amenitys that the Club offers. It is responsive.
+    * The about us page is designed to provide information on what bouldering is, and more information about the club. The page is responsive.
+    * There is a facilities section which will list the various facilities that the club offers. If using a smaller screen the facilities will stack on top of each other.
+    * The benefits section tells the user how bouldering could benifit them, plus it has icons to catch the users attention. If using a smaller screen the benifits will stack on top of each other.
+
+    <details><summary><b>About Us Image</b></summary>
+
+    ![About Us Page Image](assets/readme-images/feature-about.png)
+    </details><br />   
+
 * ### Classes page: 
-    * This classes page lists the diffrent classes on at Grip Club, this should encourge users to get involved. 
-    * Images are used to help get the users attention. It is fully responsive.
+    * The classes page lists the diffrent classes on at Grip Club, this should encourge users to get involved. If using a smaller screen the classes will stack on top of each other.
+    * Images are used to help get the users attention. And a breif text is provided about what the class is. 
+    * There is a hover effect on the diffrent classes.
+
+    <details><summary><b>Classes Image</b></summary>
+
+    ![Classes Page Image](assets/readme-images/feature-classes.png)
+    </details><br /> 
+
 * ### Contact us page:
     * The contact page asks for the users name and email. This can nut be submitted unless the user fills this in. 
     * The contact page also has a dropdown for the user to select why they are contacting the club and a textarea for them to write a message. 
     * A submit button allows users to submit the form, but only if all sections are filled in. 
+    * There is an info section which provides important information about the clubs location, prices and times that they are open and closed. 
+    * Icons are used to grap the users attention. 
+    * If using a smaller screen the info section will stack on top of each other.
+
 * ### Thank you pop up:
     * This pop up shows when a user has submitted a form. It will thank them for contacting Grip Club and let the user know that someone will get back to them. 
     
-* ### Info section:
-    * The info section provides important information about the clubs location, prices and times that they are open and closed. 
-    * Icons are used to grap the users attention. Plus it is fully responsive.
 * ### Footer: 
     * The footer contains links to Grip Clubs social media. They will open in a seprate tab. Icons helped keep the footer simple. 
 
@@ -230,7 +268,7 @@ Initial deployment/how to fork/how to clone.
     It is clear that the images used within the Grip Club website has caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes i am not going to make any changes, however in the future with more experiance or if this site was to go live i would address these.
 
 ## Wave tool testing
-[Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site. Wave checked for any errors and colour contrast. Some corrections have been made prioir to these results that will be discussed in the fixed bug section. 
+[Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site. Wave checked for any errors and colour contrast. Some corrections have been made prioir to these results that will be discussed in the fixed bug section. No errors have been found.
 * ### Wave tool results for about us page : 
   * The results show 2 contrast errors with the h1 and p in the hero section. I am not concerned with this as the contrast has passed other contrast tests and has meet the WCAG 2.1 AA and AAA guidlines.
 
@@ -255,13 +293,13 @@ Initial deployment/how to fork/how to clone.
 ![ay11 results contact](assets/readme-images/a11y-contact.png)
 
 * I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
-    * It used at the beginning of creating the site to familirise myself with accessibility. I then completed it once the site was finished. There were some things that i could not tick off such as ensuring controls have :focus states.
+    * It was used at the beginning of creating the site to familirise myself with accessibility. I then completed it once the site was finished. There were some things that i could not tick off such as ensuring controls have :focus states.
     * I have also jumped some headings, the reason i did this was to help with sizing of text, but know i understand that this should not have been done, and that they should follow from h1 then h2 then h3 and so on. 
-    * I should have included error messages for when forms have been submitted, i did add a thank you popup, but this is not enough to achive accsessibility.  
+    * I should have included error messages for forms, i did add a thank you popup, but this is not enough to achive accsessibility.  
     * I am hoping to learn alot more about accessibility as i progress through the code institute course.
 
 ## Responsiveness Testing
-* To check the responsive design of the Grip Club Website, i used [Google Dev Tools.](https://www.google.com/chrome/dev/) This was done manually. I also used [Am i responsive](https://ui.dev/amiresponsive).
+* To check the responsive design of the Grip Club Website, i used [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive). This was done manually making sure that the site works across phones, tablets and computers.
 
 # Credits
 ### Content 
