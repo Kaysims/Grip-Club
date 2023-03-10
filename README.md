@@ -174,7 +174,7 @@ Initial deployment/how to fork/how to clone.
 
 # Testing
 ## Testing Code Validation
-* Grip Club code was tested using W3C html and css validator, and the JS hint validator for the javascript. The HTML did have an error when first tested, it was due to a an a tag being inside a button element. This has now been corrected and is documented below.
+* Grip Club code was tested using W3C html and css validator, and the JS hint validator for the javascript. The HTML did have an error when first tested, it was due to an a element being inside a button element. This has now been corrected and is documented below.
 
 ### HTML [W3C Html validator](https://validator.w3.org/) was used to test the html.
  * HTML Validation for index.html no errors were found.
@@ -193,6 +193,8 @@ Initial deployment/how to fork/how to clone.
 ### JS [Javascript validator](https://jshint.com/) was used to test the javascript.
 * Js Validation no errors were found.
  ![js validation](assets/readme-images/js-validator.png)
+
+ ## Lighthouse Testing
 
 
 # Credits
