@@ -369,6 +369,85 @@ Initial deployment/how to fork/how to clone.
   * Microsoft edge
   * Safari
 
+# Bugs 
+## Bugs Fixed :
+
+ 1. When the HTML validation was initially run it flagged that an a element must not be embeded in a button, which is what i had done for the hero button. This was corrected and is no longer an error.
+
+<details><summary><b>HTML Bug Found</b></summary>
+
+![HTML Bug Found](assets/readme-images/bug-html.png)
+
+</details><br /> 
+
+2. When the CSS validation was initially run it flagged two errors. One was due to an incorrect text align value being used. The other was due to an unvalid colour being used. They were both corrected and are no longer an error.
+
+<details><summary><b>CSS Bugs Found</b></summary>
+
+![CSS Bugs Found](assets/readme-images/bug-css.png)
+
+</details><br /> 
+
+3. When the orginal lighthouse test was run the SEO came back as 89 points. The reason for this was due to an error with the meta discription. I had spelt discription incorrectly. This is now fixed and is no longer an error. 
+
+<details><summary><b>SEO Bug Found</b></summary>
+
+![SEO Bug Found](assets/readme-images/bug-seo.png)
+
+</details><br /> 
+
+4. When the lighthouse test was run for the mobile devise it gave performance a mark of 83 points across all pages. The error read "Reduce the impact of third-party code". After googling this error i found that i needed to edit my font-awsome script to include an async. The async tells the browser not to download the file right away, which then allows the browser to focus on parsing the HTML. After adding the async this error is no longer showing. 
+
+<details><summary><b>Performance Bug Found</b></summary>
+
+![Performance Bug Found](assets/readme-images/bug-performance.png)
+
+</details><br />
+
+5. When i run the lighthouse test in microsoft edge it highlighted an error that google dev tools missed. At the start of the project i was going to have the icon as a link that would take the user back to the hero image. I decided in the end not to do this for various reasons. The issue was i had left the icon in a < a > tag but there was no href. This has been corrected now to a < div > and is no longer an error. 
+
+<details><summary><b>Icon Bug Found</b></summary>
+
+![Icon Bug Found](assets/readme-images/bug-icon.png)
+
+</details><br />
+
+## Bugs Unfixed :
+
+1. Google dev tools flagged "Serve images in next-gen formats" which states that i should change the png images to WebP or AVIF format. I did attempt to do this and used a website to convert images to AVIF called [AVIF convertor](https://avif.io/) however it would not download to my computer giving me an error message. I decided to stick with the png images for this project. In the future i will try to work out and understand how to use AVIF and Webp to ensure this does not happen again. 
+
+<details><summary><b>Next-gen Image Unfixed Bug</b></summary>
+
+![Next-gen Image Unfixed Bug](assets/readme-images/bug-unfixed-images.png)
+
+</details><br />
+
+2. Google dev tools flagged "Display images with incorrect aspect ratio" this was in relation to the images on the Classes page. My understanding was that i could add a width and height to the HTML page instead of the CSS and this would fix the error. I found that this was not an option i could take as it effected the responsivness of my images. The second thing i could do is to use an image CDN, which should help with optimsing, transforming and delivery of images. I will look into how to use CDN in the future. 
+
+<details><summary><b>Asepct-ratio Images Unfixed Bug</b></summary>
+
+![Asepct-ratio Images Unfixed Bug](assets/readme-images/bug-unfixed-classes.png)
+
+</details><br />
+
+3. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the sites performance from getting 100 points in desktop and points knocked of for the mobile. I also run a coverage report on dev tools, to see what the render-blocking was effecting, and it showed CSS and JS was effected. From what i have read it could be due to me putting the google fonts as imports in the CSS instead of links in the head section and or somthing to do with JS. I have decided to leave this bug for this project, i am unsure of how to fix this but hope as i gain my knowledge during this course i will be able to solve this in the future.
+
+<details><summary><b>Render-Blocking Image Unfixed Bug</b></summary>
+
+![Render-Blocking Image Unfixed Bug](assets/readme-images/bug-unfixed-all.png)
+
+</details><br />
+<details><summary><b>Coverage Report Image Unfixed Bug</b></summary>
+
+![Coverage Report Image Unfixed Bug](assets/readme-images/bug-unfixed-covergae.png)
+
+</details><br />
+
+
+
+
+
+
 
 
 
