@@ -601,6 +601,7 @@ section {
 
     .flex-item-1 h2 {
         font-size: 1.7rem;
+        letter-spacing: 0;
     }
 
     .flex-item-1 p {
