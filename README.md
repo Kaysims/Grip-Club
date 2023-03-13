@@ -110,7 +110,7 @@ The website is designed to be simple and easy to use, this is achived by using c
 
     <details><summary><b>Desktop Navigation Bar Image</b></summary>
 
-    ![Desktop Navigation Bar Image](assets/readme-images/feature-desktop-nav.png)
+    ![Desktop Navigation Bar Image](assets/readme-images/feature-nav-desktop.png)
     </details><br />
 
     <details><summary><b>Mobile Navigation Bar Image</b></summary>
