@@ -35,28 +35,28 @@ The website is being used in the hope that it will drive more individuals to com
 I want to create a layout that has a clear user journey, that is easy to navigate and interact with. Starting with who Grip club is, what Grip Club is about, what Grip Club can offer and finally a call to act. 
 
 * The navigation menu will be fixed, so that the user can navigate between pages. The navigation menu for tablets and phones will be controlled via a hamburger so that it is responsive. This should allow for users to navigate through the site with ease, which is a user goal.
- >   I want to be able to navigate the site easily.
+  >  I want to be able to navigate the site easily.
 
 * The home page will have a hero image that clearly shows what the site is about. A title along with a short text about what Grip Club is. And finally a button to discover more about the company. This should answer the three important questions about the company, which is a client goal. 
- >  1. Who Grip Club is
- >  2. What Grip Club does
- >  3. How to get involved
+    >  1. Who Grip Club is
+    >  2. What Grip Club does
+    >  3. How to get involved
 
 * The about us page will provide information about what bouldering is and also what Grip Club can offer. It will include there mission, there facilities and health benfits of bouldering. This will provide the user with more information about the company, which is a user goal. 
- > I want to find out about Grip Club, and understand what the club is about.
+  > I want to find out about Grip Club, and understand what the club is about.
 
 * The classes page will provide information on diffrent classes that users can get involoved in and join. This should achive the user goals of getting involoved. 
- > I want to be able to see classes that can get me involved in bouldering. 
+  > I want to be able to see classes that can get me involved in bouldering. 
 
  * The contact page will allow users to contact Grip club via a form. It will have a dropdown list to establish why the user is contacting and a text-area so that they can type questions, feedback, complaints. This is both a user and client requirment. 
-  >    * To create a site where people are able to contact Grip Club, ask questions, and give feedback.
-  >    * I want to be able to contact the club quickly, with questions, feedback.
+   >    * To create a site where people are able to contact Grip Club, ask questions, and give feedback.
+   >    * I want to be able to contact the club quickly, with questions, feedback.
 
   * The info section will include address, prices, and opening/closing times. This will provide important information for users so they can decide on visiting the club. This should achive the user goals of getting involoved.
  > I want to be able to see classes that can get me involved in bouldering. 
 
 * The footer will contain links to social media, this will enable users to follow Grip Club’s socials.
- > I want to be able to follow social media pages for Grip Club.
+  > I want to be able to follow social media pages for Grip Club.
 
  # Design
 
@@ -110,17 +110,17 @@ The website is designed to be simple and easy to use, this is achived by using c
 
     <details><summary><b>Desktop Navigation Bar Image</b></summary>
 
-    ![Desktop Navigation Bar Image](assets/readme-images/desktop-nav.png)
+    ![Desktop Navigation Bar Image](assets/readme-images/feature-desktop-nav.png)
     </details><br />
 
     <details><summary><b>Mobile Navigation Bar Image</b></summary>
 
-    ![Mobile Navigation Bar Image](assets/readme-images/mobile-nav.png)
+    ![Mobile Navigation Bar Image](assets/readme-images/feature-nav-mobile.png)
     </details><br />
 
     <details><summary><b>Mobile Navigation Bar Dropdown Image</b></summary>
 
-    ![Mobile Navigation Bar Dropdown Image](assets/readme-images/mobile-nav-dropdown.png)
+    ![Mobile Navigation Bar Dropdown Image](assets/readme-images/feature-nav-dropdown.png)
     </details><br />
 
 
@@ -131,7 +131,7 @@ The website is designed to be simple and easy to use, this is achived by using c
 
      <details><summary><b>Home Page Image</b></summary>
 
-    ![Home Page Image](assets/readme-images/desktop-hero.png)
+    ![Home Page Image](assets/readme-images/feature-hero.png)
     </details><br />
 
 
@@ -163,11 +163,38 @@ The website is designed to be simple and easy to use, this is achived by using c
     * Icons are used to grap the users attention. 
     * If using a smaller screen the info section will stack on top of each other.
 
+     <details><summary><b>Contact Us Image</b></summary>
+
+    ![Contact Page Image](assets/readme-images/feature-contact.png)
+    </details><br /> 
+
 * ### Thank you pop up:
     * This pop up shows when a user has submitted a form. It will thank them for contacting Grip Club and let the user know that someone will get back to them. 
+
+    <details><summary><b>Thank You Popup Image</b></summary>
+
+    ![Thank You Popup Image](assets/readme-images/feature-thankyou.png)
+    </details><br /> 
     
 * ### Footer: 
     * The footer contains links to Grip Clubs social media. They will open in a seprate tab. Icons helped keep the footer simple. 
+    * The footer icons enlarge when hovered over.
+    * The foooter is repsonsive as when the screen size gets smaller the icons will go below the footer logo and copywrite text.
+
+    <details><summary><b>Footer Desktop Image</b></summary>
+
+    ![Footer Desktop Image](assets/readme-images/feature-footer-desktop.png)
+    </details><br /> 
+
+    <details><summary><b>Footer Hover Image</b></summary>
+
+    ![Footer Hover Image](assets/readme-images/feature-footer-hover.png)
+    </details><br /> 
+
+    <details><summary><b>Footer Mobile Image</b></summary>
+
+    ![Footer Mobile Image](assets/readme-images/feature-footer-mobile.png)
+    </details><br /> 
 
 ## <u>Future features : </u>
 * ### Accessibility :
@@ -183,8 +210,7 @@ The website is designed to be simple and easy to use, this is achived by using c
 I have made sure to implement accessibility throughout this project. From the start I have tried to make sure that accessibility is being prioritised and not compromised by the design, so that the website works for everyone. To do this i have include : 
 * Semantic html.
 * Descriptive alt attributes on images. 
-* Making buttons, a, elements have descriptive content.
-* Making sure that the colour contrast is good.
+* Making sure that the colour contrast is accessible.
 
 
 # Technologies used
@@ -228,7 +254,7 @@ Initial deployment/how to fork/how to clone.
  * CSS Validation no errors were found.
  ![css validation](assets/readme-images/w3c-validator.png)
     
-### JS [Javascript validator](https://jshint.com/) was used to test the javascript.
+### JS [Javascript hint validator](https://jshint.com/) was used to test the javascript.
 * Js Validation no errors were found.
  ![js validation](assets/readme-images/js-validator.png)
 
@@ -268,7 +294,7 @@ Initial deployment/how to fork/how to clone.
     It is clear that the images used within the Grip Club website has caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes i am not going to make any changes, however in the future with more experiance or if this site was to go live i would address these.
 
 ## Wave tool testing
-[Wave tool](https://wave.webaim.org/) was used to further test the Grip Club Site. Wave checked for any errors and colour contrast. Some corrections have been made prioir to these results that will be discussed in the fixed bug section. No errors have been found.
+[Wave tool](https://wave.webaim.org/) was used to further test the Grip Club site. Wave checked for any errors in the code and also that the colour contrast used in the site was accessible. Some corrections have been made prioir to these results that will be discussed in the fixed bug section. No errors have been found.
 * ### Wave tool results for about us page : 
   * The results show 2 contrast errors with the h1 and p in the hero section. I am not concerned with this as the contrast has passed other contrast tests and has meet the WCAG 2.1 AA and AAA guidlines.
 
@@ -299,7 +325,7 @@ Initial deployment/how to fork/how to clone.
     * I am hoping to learn alot more about accessibility as i progress through the code institute course.
 
 ## Responsiveness Testing
-* To check the responsive design of the Grip Club Website, i used [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive). This was done manually making sure that the site works across phones, tablets and computers.
+* To check the responsive design of the Grip Club Website, i used [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive). This was done manually making sure that the site works across phones, tablets and computers. I found this to be the most challanging part of making this site. I hope with further learning i will be able to implement responsivness more efficently in the future. 
 
 # Credits
 ### Content 
@@ -327,7 +353,9 @@ Initial deployment/how to fork/how to clone.
         * [More Flex-box](https://www.youtube.com/watch?v=9e-lWQdO-DA) - Used to understand flex-box
         * [Responsiveness](https://www.youtube.com/watch?v=VQraviuwbzU&t=837s) - Used to understand responsiveness.
         * [Accessibility](https://www.youtube.com/watch?v=qr0ujkLLgmE) - Used to understand accessibility. 
-        * [Shapes](https://www.youtube.com/watch?v=hWGgw1K-i8Y) - Used to understadn how to make shapes in CSS. 
+        * [Shapes](https://www.youtube.com/watch?v=hWGgw1K-i8Y) - Used to understand how to make shapes in CSS which lead me to the CSS generator. 
+
+    * [Hamburger menu icon](https://www.youtube.com/watch?v=flItyHiDm7E&t=14s) - Used to create the hamburger menu icon that allowed the site header to be responsive. I did not write this code i used this video.
     
     
     * [The Website Architect](https://www.youtube.com/@thewebsitearchitect) - Used to help understand good design.
@@ -336,14 +364,14 @@ Initial deployment/how to fork/how to clone.
 
 * Code Institute members :
     * [Kera Cudmore](https://github.com/kera-cudmore/readme-examples#inserting-images) - Used to help me write/understand how to do my readme along with Kera's Bully-Book-Club project.
-    * [Mike Ralph](https://github.com/MikeR94/CI-Project-Portfolio-1) - Used to help me understand how to write my readme. 
+    * [Mike Ralph](https://github.com/MikeR94/CI-Project-Portfolio-1) - Used to help me understand how to write/understand/layout my readme. 
     
 
        
 ### Media :
-* [Pixels](https://www.pexels.com/)  - all images come from this site. 
+* [Pixels](https://www.pexels.com/)  - All images come from this site. 
 * [Imageresizer](https://imageresizer.com/) - Used to re-size images. 
-* [Tiny Ping](https://tinypng.com/) - Used to compress images for the readme.
+* [Tiny Ping](https://tinypng.com/) - Used to compress images for the site and readme.
 
 ### Acknowledgments :
 This site is my first Code Institute project using CSS and HTML. I would like to thank my mentor Gareth McGirr, the slack code institute community for their help and support. Also I would like to thank the Youtube coding community, as their videos helped me develop a greater understanding of CSS and responsive design.  Building Grip club has helped me put into practise the content from code institute course, but also develop further knowledge on designing, building and testing a responsive website. 
