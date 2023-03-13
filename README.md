@@ -363,6 +363,11 @@ Initial deployment/how to fork/how to clone.
 * To check the responsive design of the Grip Club Website, i used [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive). This was done manually making sure that the site works across phones, tablets and computers. I found this to be the most challanging part of making this site. I hope with further learning i will be able to implement responsivness more efficently in the future. 
 
 ## Browser Compatibility
+* To make sure the site is compatible across different browsers i also run lighthouse tests in the below browsers. No issues were found.
+
+  * Google chrome 
+  * Microsoft edge
+  * Safari
 
 
 
