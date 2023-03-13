@@ -233,8 +233,6 @@ I have made sure to implement accessibility throughout this project. From the st
 * [Coolors](https://coolors.co/) - Used to create a colour pallete.
 * [Accessible color combinations](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E) - Used to check the colour contrast. 
 
-# Deployment 
-Initial deployment/how to fork/how to clone.
 
 # Testing
 ## Testing Code Validation
@@ -430,7 +428,7 @@ Initial deployment/how to fork/how to clone.
 
 </details><br />
 
-3. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the sites performance from getting 100 points in desktop and points knocked of for the mobile. I also run a coverage report on dev tools, to see what the render-blocking was effecting, and it showed CSS and JS was effected. From what i have read it could be due to me putting the google fonts as imports in the CSS instead of links in the head section and or somthing to do with JS. I have decided to leave this bug for this project, i am unsure of how to fix this but hope as i gain my knowledge during this course i will be able to solve this in the future.
+3. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the sites performance from getting 100 points in desktop and points knocked of for the mobile. I also run a coverage report on dev tools, to see what the render-blocking was effecting, and it showed CSS and JS was effected. From what i have read it could be due to me putting the google fonts as imports in the CSS instead of links in the head section and or something to do with JS. I have decided to leave this bug for this project, i am unsure of how to fix this but hope as i gain more knowledge during this course i will be able to solve this in the future.
 
 <details><summary><b>Render-Blocking Image Unfixed Bug</b></summary>
 
@@ -443,13 +441,15 @@ Initial deployment/how to fork/how to clone.
 
 </details><br />
 
+4. Google dev tools flagged "Minify css" and "Enable text compression" only for the mobile site. I will look into this in the future. 
+<details><summary><b>Mobile Unfixed Bug</b></summary>
 
+![Mobile Unfixed Bug](assets/readme-images/bug-unfixed-mobile.png)
 
+</details><br />
 
-
-
-
-
+# Deployment 
+Initial deployment/how to fork/how to clone.
 
 # Credits
 ### Content 
