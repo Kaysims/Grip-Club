@@ -327,6 +327,46 @@ Initial deployment/how to fork/how to clone.
 ## Responsiveness Testing
 * To check the responsive design of the Grip Club Website, i used [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive). This was done manually making sure that the site works across phones, tablets and computers. I found this to be the most challanging part of making this site. I hope with further learning i will be able to implement responsivness more efficently in the future. 
 
+## Manual Testing
+* On top of the other tests, i also manually checked the site to make sure everything worked as expected.
+  *  ### Navigation bar:
+        * Tested that the links to the other pages worked coorectly and would take the user to the correct page. 
+        * Tested that the fixed nav worked and that the nav stayed at the top of the screen. 
+        * Tested the hamburger and that it appeared when expected. Plus that the dropdown menu also worked as expected. 
+        * Tested the size of the icon text to make sure it contiuned to fit the nav bar even when the screen size was small. 
+
+  * ### Home page:
+    * Tested the hero image to make sure it expanded and shrunk with diffrent screen sizes. 
+    * Tested the header and paragraph to make sure that it stayed center and readable with diffrent screen sizes. 
+    * Tested the discover more button to check that it would take the user to the start off About Us section. 
+
+  * ### About Us page:
+    * Tested the text and font to make sure it was responsive.
+    * Tested the facilities and benifits section to make sure the both responded the same way when the screen size got smaller. For example that the both went into a column at the same point. 
+    * Checked the spelling for About Us page. 
+
+  * ### Classes page:
+    *  Tested the text and font to make sure it was responsive, and continued to fit in the card. 
+    *  Tested that the images remained in the cards on diffrent screen sizes. 
+    *  Checked the spelling for Classes page.
+    *  Tested the link in the Hire Us card would take users to the correct page. 
+
+  * ### Contact Us page:
+    * Tested that the information section was responsive.
+    * Tested that the contact form did not allow users to submit without completeing each box. 
+    * Tested that when a form is submitted that Popup appears as expected. 
+    * Checked the spelling for Classes page.
+
+  * ### Footer:
+    * Tested that the social media icons opened in a new top and that the links are correct.
+    * Tested that the footer was responsive.
+
+
+
+
+
+
+
 # Credits
 ### Content 
 * Sites :
