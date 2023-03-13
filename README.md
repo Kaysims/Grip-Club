@@ -306,27 +306,6 @@ Initial deployment/how to fork/how to clone.
 * ### Wave tool results for contact us page :
 ![Contact wave results](assets/readme-images/contact-wave.png)
 
-## Accessibility testing 
-* To check the accessibility of Grip Club website i used [a11y.](https://color.a11y.com/Contrast/) This checked the contrast and no issues were found. 
-
-* ### A11y checker for about us page :
-![ay11 results aboutus](assets/readme-images/a11y-about.png)
-
-* ### A11y checker for classes page :
-![ay11 results classes](assets/readme-images/a11y-classes.png)
-
-* ### A11y checker for contact us page :
-![ay11 results contact](assets/readme-images/a11y-contact.png)
-
-* I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
-    * It was used at the beginning of creating the site to familirise myself with accessibility. I then completed it once the site was finished. There were some things that i could not tick off such as ensuring controls have :focus states.
-    * I have also jumped some headings, the reason i did this was to help with sizing of text, but know i understand that this should not have been done, and that they should follow from h1 then h2 then h3 and so on. 
-    * I should have included error messages for forms, i did add a thank you popup, but this is not enough to achive accsessibility.  
-    * I am hoping to learn alot more about accessibility as i progress through the code institute course.
-
-## Responsiveness Testing
-* To check the responsive design of the Grip Club Website, i used [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive). This was done manually making sure that the site works across phones, tablets and computers. I found this to be the most challanging part of making this site. I hope with further learning i will be able to implement responsivness more efficently in the future. 
-
 ## Manual Testing
 * On top of the other tests, i also manually checked the site to make sure everything worked as expected.
   *  ### Navigation bar:
@@ -362,7 +341,28 @@ Initial deployment/how to fork/how to clone.
     * Tested that the footer was responsive.
 
 
+## Accessibility testing 
+* To check the accessibility of Grip Club website i used [a11y.](https://color.a11y.com/Contrast/) This checked the contrast and no issues were found. 
 
+* ### A11y checker for about us page :
+![ay11 results aboutus](assets/readme-images/a11y-about.png)
+
+* ### A11y checker for classes page :
+![ay11 results classes](assets/readme-images/a11y-classes.png)
+
+* ### A11y checker for contact us page :
+![ay11 results contact](assets/readme-images/a11y-contact.png)
+
+* I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
+    * It was used at the beginning of creating the site to familirise myself with accessibility. I then completed it once the site was finished. There were some things that i could not tick off such as ensuring controls have :focus states.
+    * I have also jumped some headings, the reason i did this was to help with sizing of text, but know i understand that this should not have been done, and that they should follow from h1 then h2 then h3 and so on. 
+    * I should have included error messages for forms, i did add a thank you popup, but this is not enough to achive accsessibility.  
+    * I am hoping to learn alot more about accessibility as i progress through the code institute course.
+
+## Responsiveness Testing
+* To check the responsive design of the Grip Club Website, i used [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive). This was done manually making sure that the site works across phones, tablets and computers. I found this to be the most challanging part of making this site. I hope with further learning i will be able to implement responsivness more efficently in the future. 
+
+## Browser Compatibility
 
 
 
