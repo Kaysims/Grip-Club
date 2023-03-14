@@ -92,13 +92,21 @@ All icons used are from [font-awesome.](https://fontawesome.com/) The images are
 ## <u>Wireframes : </u>
 
 [Balsamiq wireframes](https://balsamiq.com/) were used to create a template display for Desktop, tablets and phones. Some changes have been made when making the site. 
+ 
+<details><summary><b>This is the template for the hero image and About Us page</b></summary>
 
-* This is the template for the hero image and about us page. ![Wireframe home and about us](assets/readme-images/about-wireframe.png)
+![Wireframe home and about us](assets/readme-images/about-wireframe.png)
+</details><br />
 
-* This is the template for the classes page. ![Wireframe classes](assets/readme-images/classes-wireframe.png)
+<details><summary><b>This is the template for the Classes page</b></summary> 
 
-* This is the template for the contact us page. ![Wireframe contact us](assets/readme-images/contact-wireframe.png)
+![Wireframe classes](assets/readme-images/classes-wireframe.png)
+</details><br />
 
+<details><summary><b>This is the template for the Contact Us page</b></summary> 
+
+![Wireframe contact us](assets/readme-images/contact-wireframe.png)
+</details><br />
 
 
 ## <u>Features :</u>
