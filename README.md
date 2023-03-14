@@ -406,7 +406,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br />
 
-6. When i used the [Responsinator](http://www.responsinator.com/) site, it highlighted that my site was not resposive in landscape for mobile devises. The h1 would get pushed behind the nav bar. To fix this i added another media query with a max-width: 770px. This is no longer an error.
+6. When i used the [Responsinator](http://www.responsinator.com/) site, it highlighted that my site was not resposive in landscape for mobile devises. The h1 would get pushed behind the nav bar. To fix this i added another media query with a max-width: 930px. This is no longer an error.
 <details><summary><b>Landscape Mobile Bug</b></summary>
 
 ![Landscape Mobile Bug](assets/readme-images/unresponsive-landcape-phone.png)
