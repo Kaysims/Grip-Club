@@ -1,6 +1,6 @@
 # Grip Club - Project Portfolio 1 - HTML & CSS 
 
-Grip Club is a local family-run bouldering gym based in Essex. This site is aimed at people who want to get involved in bouldering, whether experienced or not. The site is also targeted towards individuals that would like to meet new people and socialise whilst bouldering. The site should provide users with guidance on what bouldering is, what the company aims to achieve and how they can get involved.
+Grip Club is a local family-run bouldering gym based in Essex. This site is aimed at people who want to get involved in bouldering, whether experienced or not. The site is also targeted towards individuals that would like to meet new people and socialise whilst bouldering. The site should provide users with guidance on what bouldering is, what the company aims to achieve, how they can get involved and how to contact Grip Club.
 
 You can view the live site here - 
 
@@ -37,7 +37,7 @@ I want to create a layout with a straightforward user journey that is easy to na
 * The navigation menu will be fixed so the user can navigate between pages. In addition, the navigation menu for tablets and phones will be controlled via a hamburger so that it is responsive. This should allow users to easily navigate the site, which is a user goal.
   >  I want to be able to navigate the site easily.
 
-* The home page will have a hero image that clearly shows what Grip Club is about bouldering. Plus, a title along with a short text about what Grip Club offers. Furthermore, a button to discover more about the company. This should answer the three essential questions about the company, which is a client goal. 
+* The home page will have a hero image that clearly shows what Grip Club is about. Plus, a title along with a short text about what Grip Club offers. Furthermore, a button to discover more about the company. This should answer the three essential questions about the company, which is a client goal. 
     >  1. Who Grip Club is
     >  2. What Grip Club does
     >  3. How to get involved
@@ -91,7 +91,7 @@ All icons used are from [font-awesome.](https://fontawesome.com/) The images are
 
 ## <u>Wireframes : </u>
 
-[Balsamiq wireframes](https://balsamiq.com/) created the site template's for desktops, tablets and phones. Some changes have been made when making the site. 
+[Balsamiq wireframes](https://balsamiq.com/) was used for all three pages creating templates for desktop, tablet and phone screens. Some changes have been made when making the site. 
  
 <details><summary><b>This is the template for the hero image and About Us page</b></summary>
 
@@ -110,7 +110,7 @@ All icons used are from [font-awesome.](https://fontawesome.com/) The images are
 
 
 ## <u>Features :</u>
-The website is designed to be simple and easy to use. This is achieved by using common website features, like a nav bar, an icon, and a contact page. The site has three pages which are all accessible via the navigation menu. 
+The website is designed to be simple and easy to use. This is achieved by using common website features, like a nav bar, an icon, and a contact page. The site has three pages which are all accessible via the navigation bar. 
 * ### Navigation bar:
     * The navigation bar remains fixed and contains links to different parts of the site.
     * The navigation bar is responsive as the hamburger icon allows the menu nav bar to compress on smaller screen sizes, it then has a dropdown function to select the page the user wishes to visit. 
@@ -145,7 +145,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
 
 * ### About us page:
     * The about us page is designed to provide information on what bouldering is, and more information about the club. The page is responsive.
-    * There is a facilities section which will list the various facilities that the club offers. If using a smaller screen the facilities will stack on top of each other.
+    * There is a facilities section which lists the various facilities that the club offers. If using a smaller screen the facilities will stack on top of each other.
     * The benefits section tells the user how bouldering could benefit them, plus it has icons to catch the user's attention. Again, if using a smaller screen the benefits will stack on top of each other.
 
     <details><summary><b>About Us Image</b></summary>
@@ -188,7 +188,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
 * ### Footer: 
     * The footer contains links to Grip Club's social media. They will open in a separate tab. Icons helped keep the footer simple. 
     * The footer icons enlarge when hovered over.
-    * The footer is responsive when the screen size gets smaller the icons will go below the logo and copyright text.
+    * The footer is responsive when the screen size gets smaller the icons go below the logo and copyright text.
 
     <details><summary><b>Footer Desktop Image</b></summary>
 
@@ -216,7 +216,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
     * A simple calendar that allows users to see any events that are coming up. This would be an attractive addition to the website for frequent users. 
 
 ## <u>Accessibility : </u>
-I have made sure to implement accessibility throughout this project. From the start, I have tried to ensure that accessibility is being prioritised and not compromised by the design so that the website works for everyone. To achieve this the below has been included : 
+From the start, I have tried to ensure that accessibility is being prioritised and not compromised by the design so that the website works for everyone. To achieve this the below has been included : 
 * Semantic HTML.
 * Descriptive alt attributes on images. 
 * Make sure that the colour contrast is accessible.
