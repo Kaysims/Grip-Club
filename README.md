@@ -357,14 +357,11 @@ I have made sure to implement accessibility throughout this project. From the st
     * I am hoping to learn a lot more about accessibility as I progress through the code institute course.
 
 ## Responsiveness Testing
-* To check the responsive design of the Grip Club Website, [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive) were used. This was done manually making sure that the site works across phones, tablets and computers. I found this to be the most challenging part of making this site. I hope with further learning i will be able to implement responsiveness more efficiently in the future. 
+* To check the responsive design of the Grip Club Website, [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive) were used. This was done manually making sure that the site works across phones, tablets and computers. Plus [Responsinator](http://www.responsinator.com/) was used to check the tablet and mobile site worked in landscape view. I found this to be the most challenging part of making this site. I hope with further learning i will be able to implement responsiveness more efficiently in the future. 
 
 ## Browser Compatibility
-* To make sure the site is compatible across different browsers i also run lighthouse tests in the below browsers. No issues were found.
+* To make sure the site is compatible across different browsers i also run lighthouse tests in Google Chrome, Microsoft Edge and Safari. No issues were found.
 
-  * Google Chrome 
-  * Microsoft Edge
-  * Safari
 
 # Bugs 
 ## Bugs Fixed :
@@ -385,7 +382,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br /> 
 
-3. When the original lighthouse test was run the SEO came back as 89 points. The reason for this was an error with the meta description. I had spelt the word discription incorrectly. This is now fixed and is no longer an error. 
+3. When the original lighthouse test was run the SEO came back as 89 points. The reason for this was an error with the meta description. I had spelled the word discription incorrectly. This is now fixed and is no longer an error. 
 
 <details><summary><b>SEO Bug Found</b></summary>
 
@@ -411,7 +408,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 ## Bugs Unfixed :
 
-1. Google dev tools flagged "Serve images in next-gen formats" which states that I should change the png images to WebP or AVIF format. I did attempt to do this and used a website to convert images to AVIF called [AVIF converter](https://avif.io/) however it would not download to my computer giving me an error message. I decided to stick with the png images for this project. In the future, i will try to work out and understand how to use AVIF and Webp to ensure this does not happen again. 
+1. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I did attempt to do this and used a website to convert images to AVIF called [AVIF converter](https://avif.io/) however it would not download to my computer giving me an error message. I decided to stick with the png images for this project. In the future, i will try to work out and understand how to use AVIF and Webp to ensure this does not happen again. 
 
 <details><summary><b>Next-gen Image Unfixed Bug</b></summary>
 
@@ -427,7 +424,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br />
 
-3. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the site's performance from getting 100 points in the desktop and points knocked off for the mobile. I also run a coverage report on dev tools, to see what the render-blocking was affecting, and it showed CSS and JS were affected. From what I have read it could be due to google fonts being imports in the CSS instead of links in the head section and or something to do with JS. I have decided to leave this bug for this project, I hope as I gain more knowledge during this course I will be able to solve this in the future.
+3. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the site's performance from getting 100 points in the desktop site and points knocked off for the mobile site. I also run a coverage report on dev tools, to see what the render-blocking was affecting, and it showed CSS and JS were affected. From what I have read it could be due to google fonts being imports in the CSS instead of links in the head section and or something to do with JS. I have decided to leave this bug for this project, I hope as I gain more knowledge during this course I will be able to solve this in the future.
 
 <details><summary><b>Render-Blocking Image Unfixed Bug</b></summary>
 
@@ -468,6 +465,7 @@ Initial deployment/how to fork/how to clone.
     * [Wave tool](https://wave.webaim.org/) - Used to check for errors on site.
     * [a11y](https://color.a11y.com/Contrast/) - Used to check for accessibility on the site.
     * [Am i responsive](https://ui.dev/amiresponsive) - Used to create multiple screen images in the readme.
+    * [Responsinator](http://www.responsinator.com/) - Used to check responsiveness.
 
 
 * Youtube :

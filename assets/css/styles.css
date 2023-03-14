@@ -105,7 +105,7 @@ header {
 
 /* HERO IMAGE */
 #hero-section {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #201f1f;
     background: url("../images/hero-img.png") center center;
@@ -121,11 +121,12 @@ header {
 /* HERO IMAGE COLOUR */
 #hero-section::before {
     content: "";
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    ;
     background-color: rgba(52, 51, 51, 0.6);
     position: absolute;
+    overflow: hidden;
+    background-size: cover;
 
 }
 
@@ -144,6 +145,7 @@ header {
     padding: 0 15rem;
     color: #EBEBEB;
     margin-top: 1rem;
+    text-align: center;
 
 }
 
@@ -584,6 +586,11 @@ section {
 
     #hero-section {
         height: 700px;
+    }
+
+    #hero-section::before {
+        height: 700px;
+
     }
 
     #hero-section h1 {
