@@ -406,6 +406,8 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br />
 
+6. When i was testing the responsiveness using [Am i responsive](https://ui.dev/amiresponsive) it should that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools this did not show. I decided last minute to change this just to be sure that the overlay covered the hero image completely. 
+
 ## Bugs Unfixed :
 
 1. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I did attempt to do this and used a website to convert images to AVIF called [AVIF converter](https://avif.io/) however it would not download to my computer giving me an error message. I decided to stick with the png images for this project. In the future, i will try to work out and understand how to use AVIF and Webp to ensure this does not happen again. 
