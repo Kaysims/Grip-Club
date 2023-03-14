@@ -357,7 +357,7 @@ I have made sure to implement accessibility throughout this project. From the st
     * I am hoping to learn a lot more about accessibility as I progress through the code institute course.
 
 ## Responsiveness Testing
-* To check the responsive design of the Grip Club Website, [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive) were used. This was done manually making sure that the site works across phones, tablets and computers. Plus [Responsinator](http://www.responsinator.com/) was used to check the tablet and mobile site worked in landscape view. I found this to be the most challenging part of making this site. I hope with further learning i will be able to implement responsiveness more efficiently in the future. 
+* To check the responsive design of the Grip Club Website, [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive) were used. This was done manually making sure that the site works across phones, tablets and computers. Plus [Responsinator](http://www.responsinator.com/) was used to check the tablet and mobile site worked in landscape view. I found this to be the most challenging part of making this site. I hope with further learning i will be able to implement responsiveness more efficiently and effectivley in the future. 
 
 ## Browser Compatibility
 * To make sure the site is compatible across different browsers i also run lighthouse tests in Google Chrome, Microsoft Edge and Safari. No issues were found.
@@ -406,7 +406,19 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br />
 
-6. When i was testing the responsiveness using [Am i responsive](https://ui.dev/amiresponsive) it should that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools this did not show. I decided last minute to change this just to be sure that the overlay covered the hero image completely. 
+6. When i used the [Responsinator](http://www.responsinator.com/) site, it highlighted that my site was not resposive in landscape for mobile devises. The h1 would get pushed behind the nav bar. To fix this i added another media query with a max-width: 770px. This is no longer an error.
+<details><summary><b>Landscape Mobile Bug</b></summary>
+
+![Landscape Mobile Bug](assets/readme-images/unresponsive-landcape-phone.png)
+
+</details><br />
+<details><summary><b>Landscape Mobile Bug Fixed</b></summary>
+
+![Landscape Mobile Bug Fixed](assets/readme-images/responsive-landcape-mobile.png)
+
+</details><br />
+
+7. When i was testing the responsiveness using [Am i responsive](https://ui.dev/amiresponsive) it showed that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools this did not show. I decided last minute to change this just to be sure that the overlay covered the hero image completely. 
 
 ## Bugs Unfixed :
 
