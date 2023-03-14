@@ -1,6 +1,6 @@
 # Grip Club - Project Portfolio 1 - HTML & CSS 
 
-Grip Club is a local family-run bouldering gym based in Essex. This site is aimed at people who want to get involved in bouldering, whether they are experienced or not. It is also targeted towards individuals that would like to meet new people and socialise whilst bouldering. The site should provide users with guidance on what bouldering is, what the company aims to achieve and how they can get involved.
+Grip Club is a local family-run bouldering gym based in Essex. This site is aimed at people who want to get involved in bouldering, whether experienced or not. The site is also targeted towards individuals that would like to meet new people and socialise whilst bouldering. The site should provide users with guidance on what bouldering is, what the company aims to achieve and how they can get involved.
 
 You can view the live site here - 
 
@@ -10,7 +10,7 @@ You can view the live site here -
 
 ## <u>Initial discussion :</u>
 Grip Club is a bouldering gym in Essex. It aims to create a friendly and social environment where people can learn/improve their bouldering skills. 
-The website is being used to drive more individuals to come down and try bouldering , providing users with more information about who Grip Club is and what they offer. In addition, the contact us section has been added so that people can ask questions and give feedback.
+The website is being used to drive more individuals to come down and try bouldering, providing users with more information about who Grip Club is and what they offer. In addition, the contact us section has been added so that people can ask questions and give feedback.
 
 ## <u>User stories :</u>
 ### Client Goals
@@ -42,7 +42,7 @@ I want to create a layout with a straightforward user journey that is easy to na
     >  2. What Grip Club does
     >  3. How to get involved
 
-* The about us page will provide information about what bouldering is and what Grip Club can offer. It will include their mission, facilities and bouldering's health benefits. This will give the user more information about the company, which is a user goal. 
+* The about us page will provide information about what bouldering is and what Grip Club can offer. It will include their mission, facilities and bouldering health benefits. This will give the user more information about the company, which is a user goal. 
   > I want to find out about Grip Club and understand what the club is about.
 
 * The classes page will provide information on different classes that users can get involved in and join. This should achieve the user's goal of getting involved. 
@@ -91,7 +91,7 @@ All icons used are from [font-awesome.](https://fontawesome.com/) The images are
 
 ## <u>Wireframes : </u>
 
-[Balsamiq wireframes](https://balsamiq.com/) created the template's for all pages for desktop, tablets and phones. Some changes have been made when making the site. 
+[Balsamiq wireframes](https://balsamiq.com/) created the site template's for desktops, tablets and phones. Some changes have been made when making the site. 
  
 <details><summary><b>This is the template for the hero image and About Us page</b></summary>
 
@@ -110,7 +110,7 @@ All icons used are from [font-awesome.](https://fontawesome.com/) The images are
 
 
 ## <u>Features :</u>
-The website is designed to be simple and easy to use, this is achieved by using common website features, like a nav bar, an icon, and a contact page. The site has three pages which are all accessible via the navigation menu. 
+The website is designed to be simple and easy to use. This is achieved by using common website features, like a nav bar, an icon, and a contact page. The site has three pages which are all accessible via the navigation menu. 
 * ### Navigation bar:
     * The navigation bar remains fixed and contains links to different parts of the site.
     * The navigation bar is responsive as the hamburger icon allows the menu nav bar to compress on smaller screen sizes, it then has a dropdown function to select the page the user wishes to visit. 
@@ -168,7 +168,7 @@ The website is designed to be simple and easy to use, this is achieved by using 
     * The contact page asks for the user's name and email. This can only be submitted if the user fills this in. 
     * The contact page also has a dropdown for the user to select why they are contacting the club and a text area for them to write a message. 
     * A submit button allows users to submit the form, only if all sections are filled in. 
-    * There is an info section which provides important information about the club's location, prices and times that they are open and closed. 
+    * There is an info section which provides essential information about the club's location, prices and times that they are open and closed. 
     * Icons are used to grab the user's attention. 
     * If using a smaller screen the info section will stack on top of each other.
 
@@ -213,7 +213,7 @@ The website is designed to be simple and easy to use, this is achieved by using 
 * ### Icon :
     * A more sophisticated logo within the Nav bar, so customers can easily link the logo with bouldering and Grip Club. I used a free icon, which does not convey the club well.
 * ### Events calendar :
-    * A simple calendar that allows users to see any events that are coming up. This would be an engaging addition to the website for frequent users. 
+    * A simple calendar that allows users to see any events that are coming up. This would be an attractive addition to the website for frequent users. 
 
 ## <u>Accessibility : </u>
 I have made sure to implement accessibility throughout this project. From the start, I have tried to ensure that accessibility is being prioritised and not compromised by the design so that the website works for everyone. To achieve this the below has been included : 
@@ -300,7 +300,7 @@ I have made sure to implement accessibility throughout this project. From the st
     The images used within the Grip Club website have caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes, I am going to keep the images the same. However in the future, with more experience or if this site were to go live, I would address these.
 
 ## Wave tool testing
-[Wave tool](https://wave.webaim.org/) was used to test the Grip Club site further. Wave checked for any errors in the code and also that the colour contrast used in the site was accessible. No errors have been found.
+[Wave tool](https://wave.webaim.org/) was used to test the Grip Club site further. Wave checked for any code errors and that the colour contrast used in the site was accessible. No errors were found.
 * ### Wave tool results for the About Us page : 
   * The results show two contrast errors with the h1 and p in the hero section. I am not concerned with this as the contrast has passed other contrast tests and has met the WCAG 2.1 AA and AAA guidelines.
 
@@ -313,16 +313,16 @@ I have made sure to implement accessibility throughout this project. From the st
 ![Contact wave results](assets/readme-images/contact-wave.png)
 
 ## Manual Testing
-* On top of the other tests, I also manually checked the site to make sure everything worked as expected.
+* On top of the other tests, I manually checked the site to ensure everything worked as expected.
   *  ### Navigation bar:
         * Tested that the links to the other pages worked correctly and would take the user to the correct page. 
         * Tested that the fixed nav worked and that the nav stayed at the top of the screen. 
         * Tested the hamburger and that it appeared when expected. Plus that the dropdown menu also worked as expected. 
-        * Tested the size of the icon text to make sure it continued to fit the nav bar even when the screen size was small. 
+        * Tested the icon text's size to ensure it continued to fit the nav bar even when the screen size was small. 
 
   * ### Home page:
-    * Tested the hero image to make sure it expanded and shrunk with different screen sizes. 
-    * Tested the header and paragraph to make sure that it stayed centre and readable with different screen sizes. 
+    * Tested the hero image to ensure it expanded and shrunk with different screen sizes. 
+    * Tested the header and paragraph to ensure it stayed centre and readable with different screen sizes. 
     * Tested the discover more button to check that it would take the user to the start of the About Us section. 
 
   * ### About Us page:
@@ -363,10 +363,10 @@ I have made sure to implement accessibility throughout this project. From the st
     * It was used at the beginning of creating the site to familiarise me with accessibility. I then completed it once the site was finished. There were some things that could not be ticked off, such as ensuring controls have :focus states.
     * I have also jumped some headings, the reason I did this was to help with the sizing of text, but now I understand that this should not have been done. 
     * I should have included error messages for forms, I did add a thank you popup, but this is not enough to achieve accessibility.  
-    * I am hoping to learn a lot more about accessibility as I progress through the code institute course.
+    * I hope to learn a lot more about accessibility as I progress through the code institute course.
 
 ## Responsiveness Testing
-* To check the responsive design of the Grip Club Website, [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive) were used. This was done manually making sure that the site works across phones, tablets and computers. Plus [Responsinator](http://www.responsinator.com/) was used to check that the tablet and mobile site worked in landscape view. This was the most challenging part of making this site. With further learning I will implement responsiveness more efficiently and effectively in the future. 
+* To check the responsive design of the Grip Club Website, [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive) were used. This was done manually ensuring the site works across phones, tablets and computers. Plus [Responsinator](http://www.responsinator.com/) was used to check that the tablet and mobile site worked in landscape view. This was the most challenging part of making this site. With further learning I will implement responsiveness more efficiently and effectively in the future. 
 
 ## Browser Compatibility
 * To make sure the site is compatible across different browsers I also run lighthouse tests in Google Chrome, Microsoft Edge and Safari. No issues were found.
@@ -375,7 +375,7 @@ I have made sure to implement accessibility throughout this project. From the st
 # Bugs 
 ## Bugs Fixed :
 
- 1. When the HTML validation was initially run it flagged that an < a > element must not be embedded in a < button >, which is what I had done for the hero button. This was corrected and is no longer an error.
+ 1. When the HTML validation was initially run it flagged that an < a > element must not be embedded in a < button >, which I had done for the hero button. This was corrected and is no longer an error.
 
 <details><summary><b>HTML Bug Found</b></summary>
 
@@ -383,7 +383,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br /> 
 
-2. When the CSS validation was initially run it flagged two errors. One was due to an incorrect text-align value being used. The other was an invalid colour being used. They were both corrected and are no longer an error.
+2. When the CSS validation was initially run it flagged two errors. One was due to an incorrect text-align value. The other was an invalid colour. They were both corrected and are no longer an error.
 
 <details><summary><b>CSS Bugs Found</b></summary>
 
@@ -391,7 +391,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br /> 
 
-3. When the original lighthouse test was run the SEO came back as 89 points. The reason for this was an error with the meta description. I had misspelled the word description incorrectly. This is now fixed and is no longer an error. 
+3. When the original lighthouse test was run the SEO returned as 89 points. The reason for this was an error with the meta description. I had misspelled the word description incorrectly. This is now fixed and is no longer an error. 
 
 <details><summary><b>SEO Bug Found</b></summary>
 
@@ -399,7 +399,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br /> 
 
-4. When the lighthouse test was run for the mobile device performance was given a mark of 83 points across all pages. The error read "Reduce the impact of third-party code". After googling this error I found that the font-awsome script needed to include an async. The async tells the browser not to download the file right away, which then allows the browser to focus on parsing the HTML. After adding the async this error is no longer showing. 
+4. When the lighthouse test was run for the mobile device performance was given a mark of 83 points across all pages. The error read "Reduce the impact of third-party code". After googling this error I found that the font-awsome script needed to include an async. The async tells the browser not to download the file immediately, allowing the browser to focus on parsing the HTML. After adding the async this error is no longer showing. 
 
 <details><summary><b>Performance Bug Found</b></summary>
 
@@ -407,7 +407,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br />
 
-5. When the lighthouse test was run in Microsoft Edge it highlighted an error that Google Dev Tools missed. At the start of the project, I was going to have the icon as a link that would take the user back to the hero image. I decided in the end not to do this for various reasons. The issue was that I had left the icon in a < a > tag but there was no href. This has been corrected now to a < div > and is no longer an error. 
+5. When the lighthouse test was run in Microsoft Edge it highlighted an error that Google Dev Tools missed. At the start of the project, I was going to have the icon as a link that would take the user back to the hero image. I decided in the end not to do this for various reasons. The issue was that I had left the icon in a < a > tag but there was no href. This has been corrected to a < div > and is no longer an error. 
 
 <details><summary><b>Icon Bug Found</b></summary>
 
@@ -431,7 +431,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 ## Bugs Unfixed :
 
-1. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I did attempt to do this and used a website to convert images to AVIF called [AVIF converter](https://avif.io/) however it would not download to my computer giving me an error message. I decided to stick with the png images for this project. In the future, I will work out and understand how to use AVIF and Webp to ensure this does not happen again. 
+1. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I did attempt to do this and used a website to convert images to AVIF called [AVIF converter](https://avif.io/) however it would not download to my computer giving me an error message. So I decided to stick with the png images for this project. In the future, I will work out and understand how to use AVIF and Webp to ensure this does not happen again. 
 
 <details><summary><b>Next-gen Image Unfixed Bug</b></summary>
 
@@ -439,7 +439,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br />
 
-2. Google dev tools flagged "Display images with incorrect aspect ratio" this was concerning the images on the Classes page. My understanding was that I could add a width and height to the HTML page instead of the CSS and this would fix the error. This was not an option for this project as it affected the responsiveness of the images. The second option was to use an image CDN, which should help with optimising, transforming and delivery of images. I will look into how to use CDN in the future. 
+2. Google dev tools flagged "Display images with incorrect aspect ratio" this was concerning the images on the Classes page. My understanding was that I could add a width and height to the HTML page instead of the CSS and this would fix the error. However, this was not an option for this project as it affected the responsiveness of the images. The second option was to use an image CDN, which should help optimise, transform and deliver images. I will look into how to use CDN in the future. 
 
 <details><summary><b>Aspect-ratio Images Unfixed Bug</b></summary>
 
@@ -447,7 +447,7 @@ I have made sure to implement accessibility throughout this project. From the st
 
 </details><br />
 
-3. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the site's performance from getting 100 points on the desktop site and points knocked off for the mobile site. I also run a coverage report on dev tools, to see what the render-blocking was affecting, and it showed CSS and JS were affected. From what I have read it could be due to google fonts being imports in the CSS instead of links in the head section and or something to do with JS. I have decided to leave this bug for this project, as I gain more knowledge during this course I will be able to solve this in the future.
+3. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the site's performance from getting 100 points on the desktop site and points knocked off for the mobile site. I also run a coverage report on dev tools, to see what the render-blocking was affecting, and it showed CSS and JS were affected. From what I have read it could be due to google fonts being imports in the CSS instead of links in the head section or something to do with JS. I have decided to leave this bug for this project, as I gain more knowledge during this course I will be able to solve this in the future.
 
 <details><summary><b>Render-Blocking Image Unfixed Bug</b></summary>
 
