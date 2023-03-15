@@ -369,7 +369,6 @@ section {
 }
 
 /* CLASSES CARD SECTION USING FLEX */
-
 .flex-container-classes {
     width: 100%;
     display: flex;
@@ -427,7 +426,6 @@ section {
 /* CONTACT US HTML PAGE STYLE */
 
 /* INFO SECTION */
-
 .flex-container-info {
     display: flex;
     flex-direction: row;
@@ -468,7 +466,7 @@ section {
 }
 
 
-/* FORM SECTION TITLES */
+/* CONTACT SECTION TITLES */
 .contact {
     font-size: 3rem;
     padding-top: 1rem;
@@ -480,7 +478,7 @@ section {
     text-align: center;
 }
 
-/* FORM SECTION */
+/* CONTACT SECTION */
 .flex-container-contact {
     display: flex;
     flex-direction: column;
@@ -558,22 +556,59 @@ section {
     .flex-container-footer h4 {
         font-size: 1rem;
         float: left;
-
     }
 
     .flex-item-footer i {
         font-size: 1rem;
         margin: 0 auto;
-
     }
-
 }
 
 /* TO MAKE THE CLASSES CARDS HAVE MORE SPACE FOR SMALL LAPTOP-TABLET */
 @media only screen and (max-width: 1052px) {
     .flex-container-classes {
         gap: 2rem;
+    }
+}
 
+/* THIS HAMBURGER CODE + JS IS FROM WEB DEV TUTORIALS SEE README CREDIT */
+
+/* NAV HAMBURGER FOR TABLET AND PHONES */
+@media (max-width: 950px) {
+    .hamburger {
+        display: inline;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translate(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translate(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #201f1f;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
     }
 }
 
@@ -589,9 +624,7 @@ section {
         font-size: 1.5rem;
         padding: 0 5rem;
     }
-
 }
-
 
 /* TO MAKE SITE RESPONSIVE FOR PHONES */
 @media only screen and (max-width: 600px) {
@@ -644,7 +677,7 @@ section {
         font-size: 1rem;
     }
 
-    .flex-item-benif p {
+    .flex-item-benifits p {
         font-size: 1rem;
     }
 
@@ -656,6 +689,10 @@ section {
     .classes-sub-title {
         font-size: 1rem;
         padding: 0 3rem;
+    }
+
+    .flex-container-classes {
+        flex-direction: column;
     }
 
     .flex-item-classes {
@@ -673,7 +710,6 @@ section {
 
     .contact {
         font-size: 1.7rem;
-
     }
 
     .flex-item-8 input {
@@ -687,46 +723,4 @@ section {
     .flex-item-8 textarea {
         width: 15rem;
     }
-}
-
-/* THIS HAMBURGER CODE + JS IS FROM WEB DEV TUTORIALS SEE README CREDIT */
-
-/* NAV HAMBURGER FOR TABLET AND PHONES */
-@media (max-width: 950px) {
-    .hamburger {
-        display: inline;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translate(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translate(-8px) rotate(-45deg);
-    }
-
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #201f1f;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
-
-    .nav-item {
-        margin: 16px 0;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
 }
