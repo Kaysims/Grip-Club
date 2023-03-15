@@ -509,6 +509,7 @@ Initial deployment/how to fork/how to clone.
 * Code Institute members :
     * [Kera Cudmore](https://github.com/kera-cudmore/readme-examples#inserting-images) - Used to help me write/understand how to do my readme along with Kera's Bully-Book-Club project.
     * [Mike Ralph](https://github.com/MikeR94/CI-Project-Portfolio-1) - Used to help me understand how to write/understand/layout my readme. 
+    * [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels) - Used to help me write/understand my deployment for README.
     
 
        
@@ -518,4 +519,4 @@ Initial deployment/how to fork/how to clone.
 * [Tiny Ping](https://tinypng.com/) - Used to compress images for the site and readme.
 
 ### Acknowledgments :
-This site is my first Code Institute project using CSS and HTML. I want like to thank my mentor Gareth McGirr, and the slack code institute community for their help and support. Also, I would like to thank the Youtube coding community, as their videos helped me develop a greater understanding of CSS and responsive design.  Building Grip club has helped me put into practice the content from the code institute course, and also develop further knowledge on designing, building and testing a responsive website. 
+This site is my first Code Institute project using CSS and HTML. I want like to thank my mentor [Gareth McGirr](https://github.com/Gareth-McGirr), and the slack code institute community for their help and support. Also, I would like to thank the Youtube coding community, as their videos helped me develop a greater understanding of CSS and responsive design.  Building Grip club has helped me put into practice the content from the code institute course, and also develop further knowledge on designing, building and testing a responsive website. 
