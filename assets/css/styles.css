@@ -176,7 +176,7 @@ header {
 }
 
 /* ABOUT US FLEX SECTION ONE */
-.flex-container-one {
+.flex-container-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,19 +185,19 @@ header {
     gap: 0.3rem;
 }
 
-.flex-item-1 {
+.flex-item-about {
     flex-grow: 1;
     margin-top: 0.4rem;
 }
 
-.flex-item-1 h2 {
+.flex-item-about h2 {
     text-align: center;
     text-decoration: underline;
     font-size: 2rem;
     padding-top: 2rem;
 }
 
-.flex-item-1 p {
+.flex-item-about p {
     text-align: center;
     padding: 0.5rem 4rem;
     font-size: 1.7rem;
@@ -213,7 +213,7 @@ header {
 }
 
 /* FACILITIES FLEX SECTION */
-.flex-container-two {
+.flex-container-facilities {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -232,14 +232,14 @@ header {
     mask: var(--mask);
 }
 
-.flex-item-2 {
+.flex-item-facilities {
     text-align: start;
     font-size: 1.7rem;
     margin: 1rem 1rem;
 }
 
 /* ABOUT US FLEX SECTION TWO */
-.flex-container-three {
+.flex-container-involved {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,19 +247,19 @@ header {
     flex-wrap: wrap;
 }
 
-.flex-item-3 {
+.flex-item-involved {
     flex-grow: 1;
     margin-top: 0.4rem;
 }
 
-.flex-item-3 h2 {
+.flex-item-involved h2 {
     text-align: center;
     text-decoration: underline;
     font-size: 2rem;
     padding-top: 2rem;
 }
 
-.flex-item-3 p {
+.flex-item-involved p {
     text-align: center;
     padding: 0.5rem 4rem;
     font-size: 1.7rem;
@@ -273,7 +273,7 @@ header {
     padding-top: 2rem;
 }
 
-.flex-container-four {
+.flex-container-benifits {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -292,29 +292,29 @@ header {
     mask: var(--mask);
 }
 
-.flex-item-4 {
+.flex-item-benifits {
     text-align: start;
     margin: 1rem 1rem;
 }
 
-.flex-item-4 i {
+.flex-item-benifits i {
     font-size: 3rem;
     display: block;
     text-align: center;
 }
 
-.flex-item-4 h3 {
+.flex-item-benifits h3 {
     text-align: center;
     font-size: 1.6rem;
 }
 
-.flex-item-4 p {
+.flex-item-benifits p {
     text-align: center;
     font-size: 1.7rem;
 }
 
 /* FOOTER SECTION */
-.flex-container-five {
+.flex-container-footer {
     bottom: 0px;
     display: flex;
     flex-direction: row;
@@ -327,12 +327,12 @@ header {
     line-height: 5rem;
 }
 
-.flex-container-five h4 {
+.flex-container-footer h4 {
     font-size: 1.7rem;
     margin-left: 1px;
 }
 
-.flex-item-5 i {
+.flex-item-footer i {
     color: #ebebeb;
     font-size: 1.7rem;
     padding: 0 0.5rem;
@@ -340,7 +340,7 @@ header {
     margin-left: 10rem;
 }
 
-.flex-item-5 i:hover {
+.flex-item-footer i:hover {
     color: #659b5e;
     font-size: 3rem;
     transition: ease-in 0.7s;
@@ -370,7 +370,7 @@ section {
 
 /* CLASSES CARD SECTION USING FLEX */
 
-.flex-container-six {
+.flex-container-classes {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -380,7 +380,7 @@ section {
 
 }
 
-.flex-item-6 {
+.flex-item-classes {
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -398,27 +398,27 @@ section {
 
 }
 
-.flex-item-6:hover {
+.flex-item-classes:hover {
     transform: scale(1.15);
 }
 
-.flex-item-6 .card {
+.flex-item-classes .card {
     flex: 1;
 }
 
-.flex-item-6 .card img {
+.flex-item-classes .card img {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     margin-top: 2rem;
 }
 
-.flex-item-6 .card h4 {
+.flex-item-classes .card h4 {
     font-size: 1.7rem;
     padding: 1rem 0;
 }
 
-.flex-item-6 .card p {
+.flex-item-classes .card p {
     font-size: 1rem;
     margin: 0 2rem;
     padding-bottom: 2rem;
@@ -428,7 +428,7 @@ section {
 
 /* INFO SECTION */
 
-.flex-container-seven {
+.flex-container-info {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -450,26 +450,25 @@ section {
     mask: var(--mask);
 }
 
-.flex-item-7 {
+.flex-item-info {
     flex: 1;
 }
 
-.flex-item-7 i {
+.flex-item-info i {
     font-size: 3rem;
     padding-bottom: 1rem;
 }
 
-.flex-item-7 h3 {
+.flex-item-info h3 {
     font-size: 2rem;
 }
 
-.flex-item-7 p {
+.flex-item-info p {
     font-size: 1rem;
 }
 
 
 /* FORM SECTION TITLES */
-
 .contact {
     font-size: 3rem;
     padding-top: 1rem;
@@ -482,7 +481,7 @@ section {
 }
 
 /* FORM SECTION */
-.flex-container-eight {
+.flex-container-contact {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -490,16 +489,16 @@ section {
     padding-bottom: 5rem;
 }
 
-.form-item-8 {
+.form-item-contact {
     flex-grow: 1;
 }
 
-.flex-item-8 label {
+.flex-item-contact label {
     font-size: 1.7rem;
     text-align: center;
 }
 
-.flex-item-8 input {
+.flex-item-contact input {
     width: 40rem;
     border-radius: 6px;
     padding: 0.6rem;
@@ -509,7 +508,7 @@ section {
     margin-top: 0.5em;
 }
 
-.flex-item-8 select {
+.flex-item-contact select {
     width: 40rem;
     border-radius: 6px;
     padding: 0.6rem;
@@ -519,13 +518,13 @@ section {
     margin-top: 0.5em;
 }
 
-.flex-item-8 textarea {
+.flex-item-contact textarea {
     width: 40rem;
     border-radius: 6px;
     border: 2px solid green;
 }
 
-.flex-item-8 button {
+.flex-item-contact button {
     font-size: 1rem;
     border-radius: 6px;
     padding: 0.6rem;
@@ -535,7 +534,7 @@ section {
     cursor: pointer;
 }
 
-.flex-item-8 button:hover {
+.flex-item-contact button:hover {
     background-color: #659B5E;
 }
 
@@ -543,11 +542,11 @@ section {
 
 /* MEDIUM LAPTOP-TABLET SIZE */
 @media only screen and (max-width: 1230px) {
-    .flex-item-2 {
+    .flex-item-facilities {
         font-size: 2.3rem;
     }
 
-    .flex-container-five {
+    .flex-container-footer {
         text-align: center;
         flex-direction: row;
         justify-content: center;
@@ -556,13 +555,13 @@ section {
         width: 100%;
     }
 
-    .flex-container-five h4 {
+    .flex-container-footer h4 {
         font-size: 1rem;
         float: left;
 
     }
 
-    .flex-item-5 i {
+    .flex-item-footer i {
         font-size: 1rem;
         margin: 0 auto;
 
@@ -572,7 +571,7 @@ section {
 
 /* TO MAKE THE CLASSES CARDS HAVE MORE SPACE FOR SMALL LAPTOP-TABLET */
 @media only screen and (max-width: 1052px) {
-    .flex-container-six {
+    .flex-container-classes {
         gap: 2rem;
 
     }
@@ -622,30 +621,30 @@ section {
         padding: 0.5rem 0.7rem;
     }
 
-    .flex-item-1 h2 {
+    .flex-item-about h2 {
         font-size: 1.7rem;
         letter-spacing: 0;
     }
 
-    .flex-item-1 p {
+    .flex-item-about p {
         padding: 0.5rem 2rem;
         font-size: 1rem;
     }
 
-    .flex-item-2 {
+    .flex-item-facilities {
         font-size: 1rem;
     }
 
-    .flex-item-3 h2 {
+    .flex-item-involved h2 {
         font-size: 1.7rem;
     }
 
-    .flex-item-3 p {
+    .flex-item-involved p {
         padding: 0.5rem 2rem;
         font-size: 1rem;
     }
 
-    .flex-item-4 p {
+    .flex-item-benif p {
         font-size: 1rem;
     }
 
@@ -659,16 +658,16 @@ section {
         padding: 0 3rem;
     }
 
-    .flex-item-6 {
+    .flex-item-classes {
         width: 15rem;
     }
 
-    .flex-item-6 .card img {
+    .flex-item-classes .card img {
         width: 8rem;
         height: 8rem;
     }
 
-    .flex-container-seven {
+    .flex-container-info {
         flex-direction: column;
     }
 
