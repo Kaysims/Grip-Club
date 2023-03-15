@@ -277,7 +277,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * ### Chrome desktop contact page Lighthouse results :
 ![Contact desktop results](assets/readme-images/contact-desktop.png)
 
-* Some bugs have been fixed using Chrome dev tools before this lighthouse test, this will be discussed below in the fixed bugs section. 
+* Some bugs have been fixed using Chrome dev tools before this lighthouse test, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the Bugs section below.
 * The performance was down one point across all pages, the reason shown in dev tools was "Eliminate render-blocking resources".  
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
@@ -290,11 +290,11 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * ### Chrome mobile contact page Lighthouse results :
 ![Contact mobile results](assets/readme-images/contact-mobile.png)
 
-* Some bugs have been fixed using Chrome dev tools before this lighthouse test, this will be discussed below in the fixed bugs section.
+* Some bugs have been fixed using Chrome dev tools before this lighthouse test, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the Bugs section below.
 * The mobile display's performance was down between 7-2 points. Again the "Eliminate render-blocking resources" was an error, plus the below issues were flagged by Google Dev Tools.
-    * About us page and Classes page: Dev tools say to change the png images to WebP or AVIF, I did try to do this but received a warning message so went back to the png images initially used.
+    * About us page and Classes page: Dev tools say to change the png images to WebP or AVIF.
     * Contact us page: Dev tools also say to enable text compression.
-* The best practice for the Grip Club classes page was down eight points for the same reasons as stated in the above desktop lighthouse.
+* The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
 * ### Lighthouse conclusion : 
     The images used within the Grip Club website have caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes, I am going to keep the images the same. However in the future, with more experience or if this site were to go live, I would address these.
