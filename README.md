@@ -220,7 +220,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
 * ### Accessibility :
     * Using :focus states when creating accessible websites. I want to implement this once I have more understanding of how is best to use it. 
     * Implement a error message on forms, such as a red error message for incorrectly submitted form and a green error message for a submitted form. 
-    * Restyling of the headers so they follow logically.
+
 * ### Icon :
     * A more sophisticated logo within the Nav bar, so customers can easily link the logo with bouldering and Grip Club. I used a free icon, which does not convey the club well.
 * ### Events calendar :
@@ -273,32 +273,36 @@ From the start, I have tried to ensure that accessibility is being prioritised a
  ## Lighthouse Testing
  * Lighthouse testing was used to check the performance, accessibility, best practice and SEO of the Grip Club website. The website went through [Google Dev Tools.](https://www.google.com/chrome/dev/)
 
-* ### Chrome desktop about us page Lighthouse results :
+* ### Chrome desktop About us page Lighthouse results :
 ![About us desktop results](assets/readme-images/about-desktop.png)
 
-* ### Chrome desktop classes page Lighthouse results :
+* ### Chrome desktop Classes page Lighthouse results :
 ![Classes desktop results](assets/readme-images/classes-desktop.png)
 
-* ### Chrome desktop contact page Lighthouse results :
+* ### Chrome desktop Contact page Lighthouse results :
 ![Contact desktop results](assets/readme-images/contact-desktop.png)
 
-* Some bugs have been fixed using Chrome dev tools before this lighthouse test, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the Bugs section below.
+* ### Chrome desktop Thank you page Lighthouse results :
+![Thank you desktop results](assets/readme-images/thankyou-desktop.png)
+
+* Some bugs have been fixed before this lighthouse test was run, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the bugs section below.
 * The performance was down one point across all pages, the reason shown in dev tools was "Eliminate render-blocking resources".  
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
-* ### Chrome mobile about us page Lighthouse results :
+* ### Chrome mobile About us page Lighthouse results :
 ![About us mobile results](assets/readme-images/about-mobile.png)
 
-* ### Chrome mobile classes page Lighthouse results :
+* ### Chrome mobile Classes page Lighthouse results :
 ![Classes mobile results](assets/readme-images/classes-mobile.png)
 
-* ### Chrome mobile contact page Lighthouse results :
+* ### Chrome mobile Contact page Lighthouse results :
 ![Contact mobile results](assets/readme-images/contact-mobile.png)
 
-* Some bugs have been fixed using Chrome dev tools before this lighthouse test, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the Bugs section below.
-* The mobile display's performance was down between 7-2 points. Again the "Eliminate render-blocking resources" was an error, plus the below issues were flagged by Google Dev Tools.
-    * About us page and Classes page: Dev tools say to change the png images to WebP or AVIF.
-    * Contact us page: Dev tools also say to enable text compression.
+* ### Chrome mobile Thank you page Lighthouse results :
+![Thank you mobile results](assets/readme-images/thankyou-mobile.png)
+
+* Some bugs have been fixed before this lighthouse test was run, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the bugs section below.
+* The mobile display's performance was down between 7-2 points. Again the "Eliminate render-blocking resources" was an error. Dev tools also glagged "enable text compression."
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
 * ### Lighthouse conclusion : 
