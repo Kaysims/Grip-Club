@@ -568,12 +568,14 @@ section {
     text-align: center;
     font-size: 3rem;
     text-decoration: underline #659B5E;
+    color: #201f1f
 }
 
 .thank-you p {
     text-align: center;
     font-size: 2rem;
     padding-top: 4rem;
+    color: #201f1f
 }
 
 
