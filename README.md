@@ -177,10 +177,11 @@ The website is designed to be simple and easy to use. This is achieved by using 
     ![Contact Page Image](assets/readme-images/feature-contact.png)
     </details><br /> 
 
-* ### Thank you pop-up:
-    * This popup shows when a user has submitted a form. It will thank them for contacting Grip Club and let the user know that someone will get back to them. 
+* ### Thank you page:
+    * When a contact form is successfully submitted a thank you page is shown. The page thanks the user for contacting Grip Club and informs the user that someone will get back to them. 
+    * The navigation menu is at the top for the user to continue looking at the site if they wish. 
 
-    <details><summary><b>Thank You Popup Image</b></summary>
+    <details><summary><b>Thank You Page Image</b></summary>
 
     ![Thank You Popup Image](assets/readme-images/feature-thankyou.png)
     </details><br /> 
@@ -204,6 +205,16 @@ The website is designed to be simple and easy to use. This is achieved by using 
 
     ![Footer Mobile Image](assets/readme-images/feature-footer-mobile.png)
     </details><br /> 
+
+* ### 404 Error page: 
+    * The 404 page is displayed if the user navigates to a broken link.
+    * The 404 page infroms the user that there is an error and to us the navigation menu to try again. 
+
+    <details><summary><b>404 Page Image</b></summary>
+
+    ![404 Page Image](assets/readme-images/feature-404.png)
+    </details><br /> 
+
 
 ## <u>Future features : </u>
 * ### Accessibility :
