@@ -176,7 +176,7 @@ header {
     padding-top: 4.5rem;
 }
 
-/* ABOUT US FLEX SECTION ONE */
+/* ABOUT US FLEX SECTION */
 .flex-container-about {
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@ header {
     font-size: 1.7rem;
 }
 
-/* FACILITIES SECTION */
+/* FACILITIES TITLE SECTION */
 .title-facilities {
     text-align: center;
     text-decoration: underline;
@@ -239,7 +239,7 @@ header {
     margin: 1rem 1rem;
 }
 
-/* ABOUT US FLEX SECTION TWO */
+/* INVOLVED FLEX SECTION */
 .flex-container-involved {
     display: flex;
     flex-direction: column;
@@ -361,7 +361,6 @@ section {
     margin: 0 auto;
     text-align: center;
     padding-top: 7rem;
-
 }
 
 .classes-sub-title {
@@ -464,7 +463,6 @@ section {
 .flex-item-info p {
     font-size: 1rem;
 }
-
 
 /* CONTACT SECTION TITLES */
 .contact {
@@ -654,7 +652,7 @@ section {
     }
 }
 
-/* TO MAKE SITE RESPONSIVE FOR LANDSCAPE */
+/* TO MAKE SITE RESPONSIVE FOR LANDSCAPE ON PHONES*/
 @media only screen and (max-width: 930px) {
 
     #hero-section h1 {
@@ -680,7 +678,6 @@ section {
 
     #hero-section::before {
         height: 700px;
-
     }
 
     #hero-section h1 {
