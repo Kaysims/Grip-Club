@@ -2,7 +2,7 @@
 
 Grip Club is a local family-run bouldering gym based in Essex. This site is aimed at people who want to get involved in bouldering, whether experienced or not. The site is also targeted towards individuals that would like to meet new people and socialise whilst bouldering. The site should provide users with guidance on what bouldering is, what the company aims to achieve, how they can get involved and how to contact Grip Club.
 
-You can view the live site here - 
+You can view the live site here - [Grip Club](https://kaysims.github.io/Grip-Club/)
 
 ![Responsive home screens](assets/readme-images/main-image.png)
 
