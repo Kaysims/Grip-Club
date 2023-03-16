@@ -248,17 +248,11 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * Grip Club code was tested using W3C HTML and CSS validator, and the JS hint validator for the javascript. Below is the results after bugs have been corrected. This will be discussed in the bug fixed section. 
 
 ### HTML [W3C Html validator](https://validator.w3.org/) was used to test the HTML.
- * HTML Validation for index.html no errors were found.
- ![Html validation for index.html](assets/readme-images/index-html-checker.png)
-
- * HTML Validation for classes.html no errors were found.
- ![Html validation for index.html](assets/readme-images/classes-html-checker.png)
-
- * HTML Validation for contact.html no errors were found.
- ![Html validation for index.html](assets/readme-images/contact-html-checker.png)
+ * HTML W3C Validation no errors were found.
+ ![Html validation](assets/readme-images/w3c-html-checker.png)
 
 ### CSS [W3C CSS validator](https://jigsaw.w3.org/css-validator/) was used to test the CSS.
- * CSS Validation no errors were found.
+ * CSS W3C Validation no errors were found.
  ![css validation](assets/readme-images/w3c-validator.png)
     
 ### JS [Javascript hint validator](https://jshint.com/) was used to test the Javascript.
@@ -480,7 +474,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 </details><br />
 
 ## Local Development :
-* How to Folk: 
+* How to Fork: 
     1. Log in to GitHub.
     2. Go to the repository for Kaysims/Grip-Club.
     3. Click the Fork button in the top right corner.
@@ -500,10 +494,6 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 ![Deploying Clone](assets/readme-images/deploy-clone.png)
 </details><br /> 
-
-
-
-
 
 # Credits
 ### Content 
@@ -543,7 +533,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 * Code Institute members :
     * [Kera Cudmore](https://github.com/kera-cudmore/readme-examples#inserting-images) - Used to help me write/understand how to do my readme along with Kera's Bully-Book-Club project.
-    * [Mike Ralph](https://github.com/MikeR94/CI-Project-Portfolio-1) - Used to help me understand how to write/understand/layout my readme. 
+    * [Mike Ralph](https://github.com/MikeR94/CI-Project-Portfolio-1) - Used to help me understand how to write/understand/layout my readme. Plus how to add favicon.
     * [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels) - Used to help me write/understand my deployment for README.
     
 
