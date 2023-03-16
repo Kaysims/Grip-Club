@@ -327,7 +327,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 ## Manual Testing
 * On top of the other tests, I manually checked the site to ensure everything worked as expected.
-  *  ### Navigation bar:
+  * ### Navigation bar:
     * Tested that the links to the other pages worked correctly and would take the user to the correct page. 
     * Tested that the fixed nav worked and that the nav stayed at the top of the screen. 
     * Tested the hamburger and that it appeared when expected. Plus that the dropdown menu also worked as expected. 
@@ -395,13 +395,19 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 ## Browser Compatibility
 * To make sure the site is compatible across different browsers I also run lighthouse tests in Google Chrome, Microsoft Edge and Safari. No issues were found.
 
+## Mentor Support
+* My mentor also provided feedback on the Grip Club site and flagged a few issues in our mid point meeting, which have been implemented into this project :
+    * To add a favicon to the site.
+    * Orginally i had implemented a popup thank you when a form was submitted. It was dicided that this was not user friendly. Instead a thankyou.html page was created. 
+    * It was also flagged that i should change my images to webp and not leave them as a png.
+    * To add a 404 page so the site.
+    * The be more discriptive the classes.  
 
 # Bugs 
 ## Bugs Fixed :
-
  1. When the HTML validation was initially run it flagged that an < a > element must not be embedded in a < button >, which I had done for the hero button. This was corrected and is no longer an error.
 
-<details><summary><b>HTML Bug Found</b></summary>
+<details><summary><b>HTML Bug Found Image</b></summary>
 
 ![HTML Bug Found](assets/readme-images/bug-html.png)
 
@@ -409,7 +415,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 2. When the CSS validation was initially run it flagged two errors. One was due to an incorrect text-align value. The other was an invalid colour. They were both corrected and are no longer an error.
 
-<details><summary><b>CSS Bugs Found</b></summary>
+<details><summary><b>CSS Bugs Found Image</b></summary>
 
 ![CSS Bugs Found](assets/readme-images/bug-css.png)
 
@@ -417,7 +423,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 3. When the original lighthouse test was run the SEO returned as 89 points. The reason for this was an error with the meta description. I had misspelled the word description incorrectly. This is now fixed and is no longer an error. 
 
-<details><summary><b>SEO Bug Found</b></summary>
+<details><summary><b>SEO Bug Found Image</b></summary>
 
 ![SEO Bug Found](assets/readme-images/bug-seo.png)
 
@@ -425,7 +431,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 4. When the lighthouse test was run for the mobile device performance was given a mark of 83 points across all pages. The error read "Reduce the impact of third-party code". After googling this error I found that the font-awsome script needed to include an async. The async tells the browser not to download the file immediately, allowing the browser to focus on parsing the HTML. After adding the async this error is no longer showing. 
 
-<details><summary><b>Performance Bug Found</b></summary>
+<details><summary><b>Performance Bug Found Image</b></summary>
 
 ![Performance Bug Found](assets/readme-images/bug-performance.png)
 
@@ -433,19 +439,20 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 5. When the lighthouse test was run in Microsoft Edge it highlighted an error that Google Dev Tools missed. At the start of the project, I was going to have the icon as a link that would take the user back to the hero image. I decided in the end not to do this for various reasons. The issue was that I had left the icon in a < a > tag but there was no href. This has been corrected to a < div > and is no longer an error. 
 
-<details><summary><b>Icon Bug Found</b></summary>
+<details><summary><b>Icon Bug Found Image</b></summary>
 
 ![Icon Bug Found](assets/readme-images/bug-icon.png)
 
 </details><br />
 
 6. When I used the [Responsinator](http://www.responsinator.com/) site, it highlighted that my site needed to be more responsive in landscape formate for mobile devises. The h1 would get pushed behind the nav bar. To fix this I added another media query with a max-width of 930px. This is no longer an error.
-<details><summary><b>Landscape Mobile Bug</b></summary>
+<details><summary><b>Landscape Mobile Bug Image</b></summary>
 
 ![Landscape Mobile Bug](assets/readme-images/unresponsive-landcape-phone.png)
 
 </details><br />
-<details><summary><b>Landscape Mobile Bug Fixed</b></summary>
+
+<details><summary><b>Landscape Mobile Bug Fixed Image</b></summary>
 
 ![Landscape Mobile Bug Fixed](assets/readme-images/responsive-landcape-mobile.png)
 
@@ -453,41 +460,47 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 7. When testing the responsiveness with [Am i responsive](https://ui.dev/amiresponsive) it showed that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools this did not show. I decided last minute to change this to be sure that the overlay covered the hero image completely. 
 
-## Bugs Unfixed :
+8. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I used [Convertio](https://convertio.co/jpg-webp/) to change the format of my images to webp. This is no longer an error. 
 
-1. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I did attempt to do this and used a website to convert images to AVIF called [AVIF converter](https://avif.io/) however it would not download to my computer giving me an error message. So I decided to stick with the png images for this project. In the future, I will work out and understand how to use AVIF and Webp to ensure this does not happen again. 
-
-<details><summary><b>Next-gen Image Unfixed Bug</b></summary>
+<details><summary><b>Next-gen Bug Image</b></summary>
 
 ![Next-gen Image Unfixed Bug](assets/readme-images/bug-unfixed-images.png)
 
 </details><br />
 
-2. Google dev tools flagged "Display images with incorrect aspect ratio" this was concerning the images on the Classes page. My understanding was that I could add a width and height to the HTML page instead of the CSS and this would fix the error. However, this was not an option for this project as it affected the responsiveness of the images. The second option was to use an image CDN, which should help optimise, transform and deliver images. I will look into how to use CDN in the future. 
+## Bugs Unfixed :
+1. Google dev tools flagged "Display images with incorrect aspect ratio" this was concerning the images on the Classes page. My understanding was that I could add a width and height to the HTML page instead of the CSS and this would fix the error. However, this was not an option for this project as it affected the responsiveness of the images. The second option was to use an image CDN, which should help optimise, transform and deliver images. I will look into how to use CDN in the future, as i was unsure how to fix this error. 
 
-<details><summary><b>Aspect-ratio Images Unfixed Bug</b></summary>
+<details><summary><b>Aspect-ratio Unfixed Bug Image</b></summary>
 
 ![Asepct-ratio Images Unfixed Bug](assets/readme-images/bug-unfixed-classes.png)
 
 </details><br />
 
-3. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the site's performance from getting 100 points on the desktop site and points knocked off for the mobile site. I also run a coverage report on dev tools, to see what the render-blocking was affecting, and it showed CSS and JS were affected. From what I have read it could be due to google fonts being imports in the CSS instead of links in the head section or something to do with JS. I have decided to leave this bug for this project, as I gain more knowledge during this course I will be able to solve this in the future.
+2. Google dev tools flagged "Eliminate render-blocking resources" this was an error across all pages and prevented the site's performance from getting 100 points on the desktop site and points knocked off for the mobile site. I also run a coverage report on dev tools, to see what the render-blocking was affecting, and it showed CSS and JS were affected. From what I have read it could be due to google fonts being imports in the CSS instead of links in the head section or something to do with JS. I have decided to leave this bug for this project, as I gain more knowledge during this course I hope to be able to solve this in the future.
 
-<details><summary><b>Render-Blocking Image Unfixed Bug</b></summary>
+<details><summary><b>Render-Blocking Unfixed Bug Image</b></summary>
 
 ![Render-Blocking Image Unfixed Bug](assets/readme-images/bug-unfixed-all.png)
 
 </details><br />
-<details><summary><b>Coverage Report Image Unfixed Bug</b></summary>
+<details><summary><b>Coverage Report Unfixed Bug Image</b></summary>
 
 ![Coverage Report Image Unfixed Bug](assets/readme-images/bug-unfixed-covergae.png)
 
 </details><br />
 
-4. Google dev tools flagged "Minify CSS" and "Enable text compression" only for the mobile site. I will look into this in the future. 
-<details><summary><b>Mobile Unfixed Bug</b></summary>
+3. Google dev tools flagged "Minify CSS" and "Enable text compression" only for the mobile site. I will look into this in the future, as i was unsure how to solve this error. 
+<details><summary><b>Mobile Unfixed Bug Image</b></summary>
 
 ![Mobile Unfixed Bug](assets/readme-images/bug-unfixed-mobile.png)
+
+</details><br />
+
+4. When the 404 page was created first, it would not show on the Grip Club site. I then tried to add a 404 page a diffrent way but this also did not work. After that i tried to delete my commits as they looked untidy. This did not work either. After contacting tutor suppport they explained that my 404 page was not showing as i had not deployed my site yet. They also suggested to leave the commits that i was trying to delete, and to explain why they are in my commits. 
+<details><summary><b>Commits Image</b></summary>
+
+![Commits Bug](assets/readme-images/bug-commits.png)
 
 </details><br />
 
@@ -544,6 +557,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
     * [a11y](https://color.a11y.com/Contrast/) - Used to check for accessibility on the site.
     * [Am i responsive](https://ui.dev/amiresponsive) - Used to create multiple screen images in the readme.
     * [Responsinator](http://www.responsinator.com/) - Used to check responsiveness.
+    * [Convertio](https://convertio.co/jpg-webp/) - Used to change png images to webp.
 
 
 * Youtube :
