@@ -412,7 +412,7 @@ section {
     margin-top: 2rem;
 }
 
-.flex-item-classes .card h4 {
+.flex-item-classes .card h3 {
     font-size: 1.7rem;
     padding: 1rem 0;
 }
@@ -457,7 +457,7 @@ section {
     padding-bottom: 1rem;
 }
 
-.flex-item-info h3 {
+.flex-item-info h2 {
     font-size: 2rem;
 }
 
