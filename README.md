@@ -401,7 +401,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
     * Orginally i had implemented a popup thank you when a form was submitted. It was dicided that this was not user friendly. Instead a thankyou.html page was created. 
     * It was also flagged that i should change my images to webp and not leave them as a png.
     * To add a 404 page so the site.
-    * The be more discriptive the classes.  
+    * To improve classes discription.  
 
 # Bugs 
 ## Bugs Fixed :
