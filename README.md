@@ -468,7 +468,42 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 </details><br />
 
 # Deployment 
-Initial deployment/how to fork/how to clone.
+## Deploying Grip Club Project :
+* The Grip Club site was deployed in GitHub pages. The following steps were taken :
+    1. Go to the settings tab in GitHub.
+    2. In settings go to GitHub pages.
+    3. Under the branch select main, root and save.
+    4. Refresh the page and Github provides a link to the deployed site.
+<details><summary><b>Deploying Grip Club Image</b></summary>
+
+![Deploying Grip Club](assets/readme-images/deploy-settings.png)
+</details><br />
+
+## Local Development :
+* How to Folk: 
+    1. Log in to GitHub.
+    2. Go to the repository for Kaysims/Grip-Club.
+    3. Click the Fork button in the top right corner.
+<details><summary><b>Deploying Fork Image</b></summary>
+
+![Deploying Fork](assets/readme-images/deploy-fork.png)
+</details><br /> 
+
+* How to Clone: 
+    1. Log in to GitHub.
+    2. Go to the repository for Kaysims/Grip-Club.
+    3. Click on the code button, select HTTP and copy the link shown.
+    4. Open the terminal in your code editor.
+    5. Type 'git clone', and then paste the URL from GitHub.
+    6. Press enter and the local clone will be created. 
+<details><summary><b>Deploying Clone Image</b></summary>
+
+![Deploying Clone](assets/readme-images/deploy-clone.png)
+</details><br /> 
+
+
+
+
 
 # Credits
 ### Content 
