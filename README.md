@@ -273,32 +273,32 @@ From the start, I have tried to ensure that accessibility is being prioritised a
  ## Lighthouse Testing
  * Lighthouse testing was used to check the performance, accessibility, best practice and SEO of the Grip Club website. The website went through [Google Dev Tools.](https://www.google.com/chrome/dev/)
 
-* ### Chrome desktop About us page Lighthouse results :
+* ### Chrome desktop About Us page Lighthouse results :
 ![About us desktop results](assets/readme-images/about-desktop.png)
 
 * ### Chrome desktop Classes page Lighthouse results :
 ![Classes desktop results](assets/readme-images/classes-desktop.png)
 
-* ### Chrome desktop Contact page Lighthouse results :
+* ### Chrome desktop Contact Us page Lighthouse results :
 ![Contact desktop results](assets/readme-images/contact-desktop.png)
 
-* ### Chrome desktop Thank you page Lighthouse results :
+* ### Chrome desktop Thank You page Lighthouse results :
 ![Thank you desktop results](assets/readme-images/thankyou-desktop.png)
 
 * Some bugs have been fixed before this lighthouse test was run, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the bugs section below.
 * The performance was down one point across all pages, the reason shown in dev tools was "Eliminate render-blocking resources".  
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
-* ### Chrome mobile About us page Lighthouse results :
+* ### Chrome mobile About Us page Lighthouse results :
 ![About us mobile results](assets/readme-images/about-mobile.png)
 
 * ### Chrome mobile Classes page Lighthouse results :
 ![Classes mobile results](assets/readme-images/classes-mobile.png)
 
-* ### Chrome mobile Contact page Lighthouse results :
+* ### Chrome mobile Contact Us page Lighthouse results :
 ![Contact mobile results](assets/readme-images/contact-mobile.png)
 
-* ### Chrome mobile Thank you page Lighthouse results :
+* ### Chrome mobile Thank You page Lighthouse results :
 ![Thank you mobile results](assets/readme-images/thankyou-mobile.png)
 
 * Some bugs have been fixed before this lighthouse test was run, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the bugs section below.
@@ -320,6 +320,10 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 * ### Wave tool results for the Contact Us page :
 ![Contact wave results](assets/readme-images/contact-wave.png)
+
+* ### Wave tool results for the Thank You page :
+![Contact wave results](assets/readme-images/thankyou-wave.png)
+
 
 ## Manual Testing
 * On top of the other tests, I manually checked the site to ensure everything worked as expected.
@@ -351,21 +355,30 @@ From the start, I have tried to ensure that accessibility is being prioritised a
     * Tested that when a form is submitted, a Popup appears as expected. 
     * Checked the spelling for the Classes page.
 
+  * ### Thank You page:
+    * Tested that the page appeared as expected. 
+    * Tested each dropdown to ensure that the thank you page apperead when a form was submitted. 
+    * Tested that the thank you page is responsive.
+
   * ### Footer:
     * Tested that the social media icons opened in a new top and that the links are correct.
-    * Tested that the footer was responsive.
+    * Tested that the footer is responsive.
+
+  * ### 404 page:
+    * Tested that the 404 page would appear when an incorrect/broken link was used on the site. 
+    * Tested that the 404 page is responsive.
 
 
 ## Accessibility testing 
 * To check the accessibility of the Grip Club website, I used [a11y.](https://color.a11y.com/Contrast/) This checked the contrast and no issues were found. 
 
-* ### A11y checker for about us page :
+* ### A11y checker for About Us page :
 ![ay11 results aboutus](assets/readme-images/a11y-about.png)
 
-* ### A11y checker for classes page :
+* ### A11y checker for Classes page :
 ![ay11 results classes](assets/readme-images/a11y-classes.png)
 
-* ### A11y checker for contact us page :
+* ### A11y checker for Contact us page :
 ![ay11 results contact](assets/readme-images/a11y-contact.png)
 
 * I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
