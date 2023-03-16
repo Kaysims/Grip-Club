@@ -322,16 +322,16 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 ![Contact wave results](assets/readme-images/contact-wave.png)
 
 * ### Wave tool results for the Thank You page :
-![Contact wave results](assets/readme-images/thankyou-wave.png)
+![Thank you wave results](assets/readme-images/thankyou-wave.png)
 
 
 ## Manual Testing
 * On top of the other tests, I manually checked the site to ensure everything worked as expected.
   *  ### Navigation bar:
-        * Tested that the links to the other pages worked correctly and would take the user to the correct page. 
-        * Tested that the fixed nav worked and that the nav stayed at the top of the screen. 
-        * Tested the hamburger and that it appeared when expected. Plus that the dropdown menu also worked as expected. 
-        * Tested the icon text's size to ensure it continued to fit the nav bar even when the screen size was small. 
+    * Tested that the links to the other pages worked correctly and would take the user to the correct page. 
+    * Tested that the fixed nav worked and that the nav stayed at the top of the screen. 
+    * Tested the hamburger and that it appeared when expected. Plus that the dropdown menu also worked as expected. 
+    * Tested the icon text's size to ensure it continued to fit the nav bar even when the screen size was small. 
 
   * ### Home page:
     * Tested the hero image to ensure it expanded and shrunk with different screen sizes. 
@@ -378,13 +378,15 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * ### A11y checker for Classes page :
 ![ay11 results classes](assets/readme-images/a11y-classes.png)
 
-* ### A11y checker for Contact us page :
+* ### A11y checker for Contact Us page :
 ![ay11 results contact](assets/readme-images/a11y-contact.png)
+
+* ### A11y checker for Thank You page :
+![ay11 results thank you](assets/readme-images/a11y-thankyou.png)
 
 * I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
     * It was used at the beginning of creating the site to familiarise me with accessibility. I then completed it once the site was finished. There were some things that could not be ticked off, such as ensuring controls have :focus states.
-    * I have also jumped some headings, the reason I did this was to help with the sizing of text, but now I understand that this should not have been done. 
-    * I should have included error messages for forms, I did add a thank you popup, but this is not enough to achieve accessibility.  
+    * I should have included error messages for forms, I did add a thank you page, but this is not enough to achieve accessibility.  
     * I hope to learn a lot more about accessibility as I progress through the code institute course.
 
 ## Responsiveness Testing
