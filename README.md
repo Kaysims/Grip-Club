@@ -70,7 +70,7 @@ The colour palette was created using [Coolors website,](https://coolors.co/) tak
     ![Colour Palate image](assets/readme-images/color-scheme-tiny.png)
 
 ### Colour accessibility 
-*   To test the accessibility of the colours [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E) was used. I used this to check that the colours meet the WCAG 2.1 AA and AAA guidelines. To further check these results [Adobe color](https://color.adobe.com/create/color-contrast-analyzer) was used, which gave the same results. The colours will be used per the below colour combinations recommended for the text and background colour.
+*   To test the accessibility of the colours, [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E) was used. I used this to check that the colours meet the WCAG 2.1 AA and AAA guidelines. To further check these results [Adobe color](https://color.adobe.com/create/color-contrast-analyzer) was used, which gave the same results. The colours will be used per the below colour combinations recommended for the text and background colour.
 
     ![Colour Cintrast imagee](assets/readme-images/contrast-checker.png)
 
@@ -289,7 +289,6 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * ### Chrome desktop Thank You page Lighthouse results :
 ![Thank you desktop results](assets/readme-images/thankyou-desktop.png)
 
-* Some bugs have been fixed before this lighthouse test was run, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the bugs section below.
 * The performance was down one point across three pages, the reason shown in dev tools was "Eliminate render-blocking resources".  
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
@@ -305,7 +304,6 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * ### Chrome mobile Thank You page Lighthouse results :
 ![Thank you mobile results](assets/readme-images/thankyou-mobile.png)
 
-* Some bugs have been fixed before this lighthouse test was run, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the bugs section below.
 * The mobile display's performance was down between 7-2 points. Again the "Eliminate render-blocking resources" was an error. Dev tools also flagged "enable text compression."
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
