@@ -115,6 +115,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
     * The navigation bar remains fixed and contains links to different parts of the site.
     * The navigation bar is responsive as the hamburger icon allows the menu nav bar to compress on smaller screen sizes, it then has a dropdown function to select the page the user wishes to visit. 
     * The navigation bar has the Grip Club icon on the left.
+    * The logo takes the user back to the home page.
 
     <details><summary><b>Desktop Navigation Bar Image</b></summary>
 
@@ -359,6 +360,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
     * Tested that the fixed nav worked and that the nav stayed at the top of the screen. 
     * Tested the hamburger and that it appeared when expected. Plus that the dropdown menu also worked as expected. 
     * Tested the icon text's size to ensure it continued to fit the nav bar even when the screen size was small. 
+    * Tested that the logo takes the user back to the home page.
 
   * ### Home page:
     * Tested the hero image to ensure it expanded and shrunk with different screen sizes. 
@@ -403,6 +405,9 @@ From the start, I have tried to ensure that accessibility is being prioritised a
     * To add a 404 page so the site.
     * To improve classes discription.  
 
+## Peer Code Review
+* The peer code review highlighted that the logo in the navigation bar should take a user back to the home page. Originally I felt it was redundant to have the logo take the user back to the homepage when the About Us link takes the user back to the home page. However, this was an oversight on my behalf. The logo taking a user back to the home page is a common website feature, so I should have included this initially. This has now been implimentated and a user can navigate back to the home page via the logo.
+
 # Bugs 
 ## Bugs Fixed :
  1. When the HTML validation was initially run it flagged that an < a > element must not be embedded in a < button >, which I had done for the hero button. This was corrected and is no longer an error.
@@ -433,14 +438,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 </details><br />
 
-5. When the lighthouse test was run in Microsoft Edge it highlighted an error that Google Dev Tools missed. At the start of the project, I was going to have the icon as a link that would take the user back to the hero image. I decided in the end not to do this for various reasons. The issue was that I had left the icon in a < a > tag but there was no href. This has been corrected to a < div > and is no longer an error. 
-<details><summary><b>Icon Bug Found Image</b></summary>
-
-![Icon Bug Found](assets/readme-images/bug-icon.png)
-
-</details><br />
-
-6. When I used the [Responsinator](http://www.responsinator.com/) site, it highlighted that my site needed to be more responsive in landscape formate for mobile devises. The h1 would get pushed behind the nav bar. To fix this I added another media query with a max-width of 930px. This is no longer an error.
+5. When I used the [Responsinator](http://www.responsinator.com/) site, it highlighted that my site needed to be more responsive in landscape formate for mobile devises. The h1 would get pushed behind the nav bar. To fix this I added another media query with a max-width of 930px. This is no longer an error.
 <details><summary><b>Landscape Mobile Bug Image</b></summary>
 
 ![Landscape Mobile Bug](assets/readme-images/bug-landcape-phone.png)
@@ -453,14 +451,14 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 </details><br />
 
-7. When testing the responsiveness with [Am i responsive](https://ui.dev/amiresponsive) it showed that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools this did not show. I decided last minute to change this to be sure that the overlay covered the hero image completely. 
+6. When testing the responsiveness with [Am i responsive](https://ui.dev/amiresponsive) it showed that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools this did not show. I decided last minute to change this to be sure that the overlay covered the hero image completely. 
 <details><summary><b>Mobile Hero Bug Image</b></summary>
 
 ![Mobile Hero Bug](assets/readme-images/bug-main-image.png)
 
 </details><br />
 
-8. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I used [Convertio](https://convertio.co/jpg-webp/) to change the format of my images to webp. This is no longer an error. 
+7. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I used [Convertio](https://convertio.co/jpg-webp/) to change the format of my images to webp. This is no longer an error. 
 <details><summary><b>Next-gen Bug Image</b></summary>
 
 ![Next-gen Image Unfixed Bug](assets/readme-images/bug-unfixed-images.png)
