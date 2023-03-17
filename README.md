@@ -16,9 +16,9 @@ The website is being used to drive more individuals to come down and try boulder
 ### Client Goals
 * To create a responsive site.
 * To create a site that can answer three questions from the opening page:
-  1. Who is Grip Club. 
-  2. What Grip Club does.
-  3. How to get involved.
+  * 1. Who is Grip Club. 
+  * 2. What Grip Club does.
+  * 3. How to get involved.
 * To create a site where people can contact Grip Club.
 
 ### First-time visitor goals 
