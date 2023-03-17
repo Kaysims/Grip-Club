@@ -16,9 +16,9 @@ The website is being used to drive more individuals to come down and try boulder
 ### Client Goals
 * To create a responsive site.
 * To create a site that can answer three questions from the opening page:
-  * 1. Who is Grip Club. 
-  * 2. What Grip Club does.
-  * 3. How to get involved.
+  * 1.Who is Grip Club. 
+  * 2.What Grip Club does.
+  * 3.How to get involved.
 * To create a site where people can contact Grip Club.
 
 ### First-time visitor goals 
@@ -38,9 +38,9 @@ I want to create a layout with a straightforward user journey that is easy to na
   >  I want to be able to navigate the site easily.
 
 * The home page will have a hero image that clearly shows what Grip Club is about. Plus, a title along with a short text about what Grip Club offers. Furthermore, a button to discover more about the company. This should answer the three essential questions about the company, which is a client goal. 
-    >  1. Who Grip Club is
-    >  2. What Grip Club does
-    >  3. How to get involved
+    >  * 1.Who is Grip Club. 
+    >  * 2.What Grip Club does.
+    >  * 3.How to get involved.
 
 * The about us page will provide information about what bouldering is and what Grip Club can offer. It will include their mission, facilities and bouldering health benefits. This will give the user more information about the company, which is a user goal. 
   > I want to find out about Grip Club and understand what the club is about.
