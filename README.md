@@ -275,7 +275,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
  ![js validation](assets/readme-images/js-validator.png)
 
  ## Lighthouse Testing
- * Lighthouse testing was used to check the performance, accessibility, best practice and SEO of the Grip Club website. The website went through [Google Dev Tools.](https://www.google.com/chrome/dev/)
+ * Lighthouse testing was used to check the performance, accessibility, best practice and SEO of the Grip Club website. The website went through [Google Dev Tools.](https://www.google.com/chrome/dev/) Below is the results after bugs have been corrected, the bugs will be discussed in the bug section below. 
 
 * ### Chrome desktop About Us page Lighthouse results :
 ![About us desktop results](assets/readme-images/about-desktop.png)
