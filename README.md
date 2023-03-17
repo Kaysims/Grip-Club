@@ -502,7 +502,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 </details><br />
 
-4. When the 404 page was created first, it would not show on the Grip Club site. I then tried to add a 404 page a diffrent way but this also did not work. After that i tried to delete my commits as they looked untidy. This did not work either. After contacting tutor suppport they explained that my 404 page was not showing as i had not deployed my site yet. They also suggested to leave the commits that i was trying to delete, and to explain why they are in my commits. 
+4. When the 404 page was created, it would not show on the Grip Club site. I then tried to add a 404 page differently, but this also did not work. After that, I tried to delete the 404 commits as they looked untidy. This did not work either. After contacting tutor support, they explained that the 404 page was not showing as the site still needed to be deployed. They also suggested leaving the commits I was trying to delete. In hindsight, I should have contacted tutor support sooner, which would have avoided the messy commits. In the future, I will deploy sites sooner and ask tutor support for help sooner. 
 <details><summary><b>Commits Image</b></summary>
 
 ![Commits Bug](assets/readme-images/bug-commits.png)
