@@ -308,7 +308,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
 * ### Lighthouse conclusion : 
-    The images used within the Grip Club website have caused points to drop across both desktop and mobile sites with the lighthouse tests. For the aspect ratio image error i have decided to keep this as it is, as this website is for educational purposes. However in the future, with more experience or if this site were to go live, I would address these errors.
+    The images used within the Grip Club website have caused points to drop across desktop and mobile sites with the lighthouse tests. For the aspect ratio image error, i have decided to keep this as it is, as this website is for educational purposes. However, in the future, with more experience or if this site were to go live, I would address these errors.
 
 ## Wave tool testing
 [Wave tool](https://wave.webaim.org/) was used to test the Grip Club site further. Wave checked for any code errors and that the colour contrast used in the site was accessible. No errors were found.
