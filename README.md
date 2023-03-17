@@ -260,7 +260,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 # Testing
 ## Testing Code Validation
-* Grip Club code was tested using W3C HTML and CSS validator, and the JS hint validator for the javascript. Below is the results after bugs have been corrected. This will be discussed in the bug fixed section. 
+* Grip Club code was tested using W3C HTML and CSS validator, and the JS hint validator for the javascript. Below is the results after bugs have been corrected, the bugs will be discussed in the bug section below. 
 
 ### HTML [W3C Html validator](https://validator.w3.org/) was used to test the HTML.
  * HTML W3C Validation no errors were found.
@@ -290,7 +290,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 ![Thank you desktop results](assets/readme-images/thankyou-desktop.png)
 
 * Some bugs have been fixed before this lighthouse test was run, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the bugs section below.
-* The performance was down one point across all pages, the reason shown in dev tools was "Eliminate render-blocking resources".  
+* The performance was down one point across three pages, the reason shown in dev tools was "Eliminate render-blocking resources".  
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
 * ### Chrome mobile About Us page Lighthouse results :
@@ -306,11 +306,11 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 ![Thank you mobile results](assets/readme-images/thankyou-mobile.png)
 
 * Some bugs have been fixed before this lighthouse test was run, this will be discussed below in the fixed bugs section. The unfixed bugs will also be discussed in the bugs section below.
-* The mobile display's performance was down between 7-2 points. Again the "Eliminate render-blocking resources" was an error. Dev tools also glagged "enable text compression."
+* The mobile display's performance was down between 7-2 points. Again the "Eliminate render-blocking resources" was an error. Dev tools also flagged "enable text compression."
 * The best practice for the Grip Club classes page was down eight points. This was due to incorrect aspect ratios for the images.
 
 * ### Lighthouse conclusion : 
-    The images used within the Grip Club website have caused points to drop across both desktop and mobile sites with the lighthouse tests. As this website is for educational purposes, I am going to keep the images the same. However in the future, with more experience or if this site were to go live, I would address these.
+    The images used within the Grip Club website have caused points to drop across both desktop and mobile sites with the lighthouse tests. For the aspect ratio image error i have decided to keep this as it is, as this website is for educational purposes. However in the future, with more experience or if this site were to go live, I would address these errors.
 
 ## Wave tool testing
 [Wave tool](https://wave.webaim.org/) was used to test the Grip Club site further. Wave checked for any code errors and that the colour contrast used in the site was accessible. No errors were found.
@@ -356,8 +356,8 @@ From the start, I have tried to ensure that accessibility is being prioritised a
   * ### Contact Us page:
     * Tested that the information section was responsive.
     * Tested that the contact form only allowed users to submit after completing each box. 
-    * Tested that when a form is submitted, a Popup appears as expected. 
-    * Checked the spelling for the Classes page.
+    * Tested that when a form is submitted, the thank you page appeared as expected. 
+    * Checked the spelling for the Contact page.
 
   * ### Thank You page:
     * Tested that the page appeared as expected. 
