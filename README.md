@@ -252,6 +252,10 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * [A11y chicklist](https://www.a11yproject.com/checklist/) - Used to check the accessibility of the site with a checklist.
 * [Coolors](https://coolors.co/) - Used to create a colour palette.
 * [Accessible color combinations](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E) - Used to check the colour contrast. 
+* [Am i responsive](https://ui.dev/amiresponsive) - Used to create multiple screen images in the readme.
+* [Responsinator](http://www.responsinator.com/) - Used to check responsiveness.
+ * [Convertio](https://convertio.co/jpg-webp/) - Used to change png images to webp.
+* [CSS generator](https://css-generators.com/wavy-shapes/) - Used to create the wavy background effect. I did not write the code.
 
 
 # Testing
