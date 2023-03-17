@@ -49,7 +49,7 @@ I want to create a layout with a straightforward user journey that is easy to na
   > I want to see classes that can get me involved in bouldering. 
 
  * The contact page will allow users to contact Grip club via a form. It will have a dropdown list to establish why the user is contacting and a text area so that they can type questions, feedback, and complaints. This is both a user and client requirement. 
-   >    * To create a site where people can contact Grip Club, ask questions, and give feedback.
+   >    * To create a site where people can contact Grip Club.
    >    * I want to contact the club quickly with questions and feedback.
 
   * The info section will include address, prices, and opening/closing times. This will provide important information for users so they can decide on visiting the club. This should achieve the user's goal of getting involved.
