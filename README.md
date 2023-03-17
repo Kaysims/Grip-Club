@@ -230,7 +230,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
 From the start, I have tried to ensure that accessibility is being prioritised and not compromised by the design so that the website works for everyone. To achieve this the below has been included : 
 * Semantic HTML.
 * Descriptive alt attributes on images. 
-* Make sure that the colour contrast is accessible.
+* Making sure that the colour contrast is accessible.
 
 
 # Technologies used
