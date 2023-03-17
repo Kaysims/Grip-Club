@@ -1,8 +1,8 @@
 # Grip Club - Project Portfolio 1 - HTML & CSS 
 
-Grip Club is a local family-run bouldering gym based in Essex. This site is aimed at people who want to get involved in bouldering, whether experienced or not. The site is also targeted towards individuals that would like to meet new people and socialise whilst bouldering. The site should provide users with guidance on what bouldering is, what the company aims to achieve, how they can get involved and how to contact Grip Club.
+Grip Club is a local family-run bouldering gym based in Essex. This site is aimed at people who want to get involved in bouldering, whether experienced or not. The site also targets individuals who would like to meet new people and socialise whilst bouldering. The site should guide users on what bouldering is, what the company aims to achieve, how they can get involved and how to contact Grip Club.
 
-You can view the live site here - [Grip Club](https://kaysims.github.io/Grip-Club/)
+View the live site here - [Grip Club](https://kaysims.github.io/Grip-Club/)
 
 ![Responsive home screens](assets/readme-images/main-image.png)
 
@@ -10,7 +10,7 @@ You can view the live site here - [Grip Club](https://kaysims.github.io/Grip-Clu
 
 ## <u>Initial discussion :</u>
 Grip Club is a bouldering gym in Essex. It aims to create a friendly and social environment where people can learn/improve their bouldering skills. 
-The website is being used to drive more individuals to come down and try bouldering, providing users with more information about who Grip Club is and what they offer. In addition, the contact us section has been added so that people can ask questions and give feedback.
+The website is being used to drive more individuals to come down and try bouldering, providing users with more information about who Grip Club is and what they offer. In addition, the Contact us section has been added so that people can ask questions and give feedback.
 
 ## <u>User stories :</u>
 ### Client Goals
@@ -135,7 +135,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
 * ### Home page:
     * The home page is designed to clearly communicate who Grip Club is and what they offer. The hero image takes up the entire width of the screen. The page is responsive.
     * In the centre of the image is the Company name and a brief description of the club.
-    * A button then allows users to jump to the About Us section which will provide further information about bouldering and the club. 
+    * A button then allows users to jump to the About Us section, which will provide further information about bouldering and the club. 
 
      <details><summary><b>Home Page Image</b></summary>
 
@@ -179,7 +179,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
 
 * ### Thank you page:
     * When a contact form is successfully submitted a thank you page is shown. The page thanks the user for contacting Grip Club and informs the user that someone will get back to them. 
-    * The navigation menu is at the top for the user to continue looking at the site if they wish. 
+    * The navigation menu is at the top for the user to continue looking at the site. 
 
     <details><summary><b>Thank You Page Image</b></summary>
 
@@ -208,7 +208,7 @@ The website is designed to be simple and easy to use. This is achieved by using 
 
 * ### 404 Error page: 
     * The 404 page is displayed if the user navigates to a broken link.
-    * The 404 page infroms the user that there is an error and to us the navigation menu to try again. 
+    * The 404 page informs the user that there is an error and to use the navigation menu to try again. 
 
     <details><summary><b>404 Page Image</b></summary>
 
