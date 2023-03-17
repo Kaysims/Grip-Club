@@ -326,6 +326,31 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * ### Wave tool results for the Thank You page :
 ![Thank you wave results](assets/readme-images/thankyou-wave.png)
 
+## Accessibility testing 
+* To check the accessibility of the Grip Club website, I used [a11y.](https://color.a11y.com/Contrast/) This checked the contrast and no issues were found. 
+
+* ### A11y checker for About Us page :
+![ay11 results aboutus](assets/readme-images/a11y-about.png)
+
+* ### A11y checker for Classes page :
+![ay11 results classes](assets/readme-images/a11y-classes.png)
+
+* ### A11y checker for Contact Us page :
+![ay11 results contact](assets/readme-images/a11y-contact.png)
+
+* ### A11y checker for Thank You page :
+![ay11 results thank you](assets/readme-images/a11y-thankyou.png)
+
+* I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
+    * It was used at the beginning of creating the site to familiarise me with accessibility. I then completed it once the site was finished. There were some things that could not be ticked off, such as ensuring controls have :focus states.
+    * I should have included error messages for forms, I did add a thank you page, but this is not enough to achieve accessibility.  
+    * I hope to learn a lot more about accessibility as I progress through the code institute course.
+
+## Responsiveness Testing
+* To check the responsive design of the Grip Club Website, [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive) were used. This was done manually ensuring the site works across phones, tablets and computers. Plus [Responsinator](http://www.responsinator.com/) was used to check that the tablet and mobile site worked in landscape view. This was the most challenging part of making this site. With further learning I will implement responsiveness more efficiently and effectively in the future. 
+
+## Browser Compatibility
+* To make sure the site is compatible across different browsers I also run lighthouse tests in Google Chrome, Microsoft Edge and Safari. No issues were found.
 
 ## Manual Testing
 * On top of the other tests, I manually checked the site to ensure everything worked as expected.
@@ -370,37 +395,10 @@ From the start, I have tried to ensure that accessibility is being prioritised a
     * Tested that the 404 page would appear when an incorrect/broken link was used on the site. 
     * Tested that the 404 page is responsive.
 
-
-## Accessibility testing 
-* To check the accessibility of the Grip Club website, I used [a11y.](https://color.a11y.com/Contrast/) This checked the contrast and no issues were found. 
-
-* ### A11y checker for About Us page :
-![ay11 results aboutus](assets/readme-images/a11y-about.png)
-
-* ### A11y checker for Classes page :
-![ay11 results classes](assets/readme-images/a11y-classes.png)
-
-* ### A11y checker for Contact Us page :
-![ay11 results contact](assets/readme-images/a11y-contact.png)
-
-* ### A11y checker for Thank You page :
-![ay11 results thank you](assets/readme-images/a11y-thankyou.png)
-
-* I also used the [A11y project checklist](https://www.a11yproject.com/checklist/). 
-    * It was used at the beginning of creating the site to familiarise me with accessibility. I then completed it once the site was finished. There were some things that could not be ticked off, such as ensuring controls have :focus states.
-    * I should have included error messages for forms, I did add a thank you page, but this is not enough to achieve accessibility.  
-    * I hope to learn a lot more about accessibility as I progress through the code institute course.
-
-## Responsiveness Testing
-* To check the responsive design of the Grip Club Website, [Google Dev Tools](https://www.google.com/chrome/dev/) and [Am i responsive](https://ui.dev/amiresponsive) were used. This was done manually ensuring the site works across phones, tablets and computers. Plus [Responsinator](http://www.responsinator.com/) was used to check that the tablet and mobile site worked in landscape view. This was the most challenging part of making this site. With further learning I will implement responsiveness more efficiently and effectively in the future. 
-
-## Browser Compatibility
-* To make sure the site is compatible across different browsers I also run lighthouse tests in Google Chrome, Microsoft Edge and Safari. No issues were found.
-
 ## Mentor Support
 * My mentor also provided feedback on the Grip Club site and flagged a few issues in our mid point meeting, which have been implemented into this project :
     * To add a favicon to the site.
-    * Orginally i had implemented a popup thank you when a form was submitted. It was dicided that this was not user friendly. Instead a thankyou.html page was created. 
+    * Orginally i had implemented a popup thank you when a form was submitted. It was decided that this was not user friendly. Instead a thankyou.html page was created. 
     * It was also flagged that i should change my images to webp and not leave them as a png.
     * To add a 404 page so the site.
     * To improve classes discription.  
