@@ -448,17 +448,22 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 6. When I used the [Responsinator](http://www.responsinator.com/) site, it highlighted that my site needed to be more responsive in landscape formate for mobile devises. The h1 would get pushed behind the nav bar. To fix this I added another media query with a max-width of 930px. This is no longer an error.
 <details><summary><b>Landscape Mobile Bug Image</b></summary>
 
-![Landscape Mobile Bug](assets/readme-images/unresponsive-landcape-phone.png)
+![Landscape Mobile Bug](assets/readme-images/bug-landcape-phone.png)
 
 </details><br />
 
 <details><summary><b>Landscape Mobile Bug Fixed Image</b></summary>
 
-![Landscape Mobile Bug Fixed](assets/readme-images/responsive-landcape-mobile.png)
+![Landscape Mobile Bug Fixed](assets/readme-images/bug-fixed-landcape-mobile.png)
 
 </details><br />
 
 7. When testing the responsiveness with [Am i responsive](https://ui.dev/amiresponsive) it showed that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools this did not show. I decided last minute to change this to be sure that the overlay covered the hero image completely. 
+<details><summary><b>Mobile Hero Bug Image</b></summary>
+
+![Mobile Hero Bug](assets/readme-images/bug-main-image.png)
+
+</details><br />
 
 8. Google dev tools flagged "Serve images in next-gen formats" which states that png images should be changed to WebP or AVIF format. I used [Convertio](https://convertio.co/jpg-webp/) to change the format of my images to webp. This is no longer an error. 
 
