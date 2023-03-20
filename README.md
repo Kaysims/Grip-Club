@@ -451,7 +451,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 </details><br />
 
-6. When testing the responsiveness with [Am i responsive](https://ui.dev/amiresponsive) it showed that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools this did not show. I decided last minute to change this to be sure that the overlay covered the hero image completely. 
+6. When testing the responsiveness with [Am i responsive](https://ui.dev/amiresponsive) it showed that the phone image had a gap at the top where the overlay rgba did not cover the hero image. Within Google Dev tools, this did not show. I added extra styling in CSS to fix this issue.  
 <details><summary><b>Mobile Hero Bug Image</b></summary>
 
 ![Mobile Hero Bug](assets/readme-images/bug-main-image.png)
