@@ -70,7 +70,7 @@ The colour palette was created using [Coolors website,](https://coolors.co/) tak
     ![Colour Palate image](assets/readme-images/color-scheme-tiny.png)
 
 ### Colour accessibility 
-*   To test the accessibility of the colours, [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E) was used. I used this to check that the colours meet the WCAG 2.1 AA and AAA guidelines. To further check these results [Adobe color](https://color.adobe.com/create/color-contrast-analyzer) was used, which gave the same results. The colours will be used per the below colour combinations recommended for the text and background colour.
+*   To test the accessibility of the colours, [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E) was used. I used this to check that the colours meet the WCAG 2.1 AA and AAA guidelines, which they did. To further check these results [Adobe color](https://color.adobe.com/create/color-contrast-analyzer) was used, which gave the same results. The colours will be used per the below colour combinations recommended for the text and background colour.
 
     ![Colour Cintrast imagee](assets/readme-images/contrast-checker.png)
 
@@ -386,11 +386,11 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
   * ### Thank You page:
     * Tested that the page appeared as expected. 
-    * Tested each dropdown to ensure that the thank you page apperead when a form was submitted. 
+    * Tested each dropdown to ensure the thank you page appeared when a form was submitted. 
     * Tested that the thank you page is responsive.
 
   * ### Footer:
-    * Tested that the social media icons opened in a new top and that the links are correct.
+    * Tested that the social media icons opened in a new tab and that the links are correct.
     * Tested that the footer is responsive.
 
   * ### 404 page:
@@ -398,15 +398,15 @@ From the start, I have tried to ensure that accessibility is being prioritised a
     * Tested that the 404 page is responsive.
 
 ## Mentor Support
-* My mentor also provided feedback on the Grip Club site and flagged a few issues in our mid point meeting, which have been implemented into this project :
+* My mentor also provided feedback on the Grip Club site and flagged a few issues in our mid-point meeting. As a result, the following has been implemented into this project :
     * To add a favicon to the site.
-    * Orginally i had implemented a popup thank you when a form was submitted. It was decided that this was not user friendly. Instead a thankyou.html page was created. 
+    * Originally, I had implemented a popup thank you when a form was submitted. It was decided that this was not user friendly. Instead, I created a thankyou.html page. 
     * It was also flagged that i should change my images to webp and not leave them as a png.
     * To add a 404 page so the site.
-    * To improve classes discription.  
+    * To improve class descriptions.    
 
 ## Peer Code Review
-* The peer code review highlighted that the logo in the navigation bar should take a user back to the home page. Originally I felt it was redundant to have the logo take the user back to the homepage when the About Us link takes the user back to the home page. However, this was an oversight on my behalf. The logo taking a user back to the home page is a common website feature, so I should have included this initially. This has now been implimentated and a user can navigate back to the home page via the logo.
+* The peer code review highlighted that the logo in the navigation bar should take a user back to the home page. Initially, having the logo take the user back to the homepage felt redundant when the About Us link took the user back to the home page. However, this was an oversight on my behalf. The logo taking a user back to the home page is a common website feature, so I should have included this initially. The logo is now clickable and will take users back to the home page.
 
 # Bugs 
 ## Bugs Fixed :
@@ -495,11 +495,11 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 # Deployment 
 ## Deploying Grip Club Project :
 * The Grip Club site was deployed in GitHub pages. The following steps were taken :
-    * 1.Log in to GitHub and go to the repository for Kaysims/Grip-Club.
+    * 1.Log into GitHub and go to the repository for Kaysims/Grip-Club.
     * 2.Go to the settings tab in GitHub.
-    * 3.In settings go to GitHub pages.
-    * 4.Under the branch select main, root and save.
-    * 5.Refresh the page and GitHub provides a link to the deployed site.
+    * 3.In settings, go to GitHub pages.
+    * 4.Under the branch, select main, root and save.
+    * 5.Refresh the page, and GitHub provides a link to the deployed site.
 <details><summary><b>Deploying Grip Club Image</b></summary>
 
 ![Deploying Grip Club](assets/readme-images/deploy-settings.png)
@@ -507,7 +507,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 
 ## Local Development :
 * How to Fork: 
-    * 1.Log in to GitHub.
+    * 1.Log into GitHub.
     * 2.Go to the repository for Kaysims/Grip-Club.
     * 3.Click the Fork button in the top right corner.
 <details><summary><b>Deploying Fork Image</b></summary>
@@ -516,9 +516,9 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 </details><br /> 
 
 * How to Clone: 
-    * 1.Log in to GitHub.
+    * 1.Log into GitHub.
     * 2.Go to the repository for Kaysims/Grip-Club.
-    * 3.Click on the code button, select HTTP and copy the link shown.
+    * 3.Click the code button, select HTTP and copy the link shown.
     * 4.Open the terminal in your code editor.
     * 5.Type 'git clone', and then paste the URL from GitHub.
     * 6.Press enter and the local clone will be created. 
@@ -567,7 +567,7 @@ From the start, I have tried to ensure that accessibility is being prioritised a
 * Code Institute members :
     * [Kera Cudmore](https://github.com/kera-cudmore/readme-examples#inserting-images) - Used to help me write/understand how to do my readme along with Kera's Bully-Book-Club project.
     * [Mike Ralph](https://github.com/MikeR94/CI-Project-Portfolio-1) - Used to help me understand how to write/understand/layout my readme. Plus how to add favicon.
-    * [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels) - Used to help me write/understand my README. Plus helped with mentor feedback throughout project.
+    * [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels) - Used to help me write/understand my README. Plus helped with mentor feedback throughout the project.
     
 
        
